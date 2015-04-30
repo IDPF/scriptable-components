@@ -4,6 +4,7 @@ This repository is home to the EPUB Scriptable Components (ESC) Working Group (W
 Contained herein are a set of samples of Scriptable Components (SC) based upon the [ESC Packaging specification](http://www.idpf.org/epub/sc/pkg/) and [ESC Communication API specification](http://www.idpf.org/epub/sc/api/).
 The goal is to form a collection of standards-based Scriptable Components as a source implementation for inspection and validation from all aspects of the industries production chain; authoring, validation, ingestion, and representation. 
 The guiding principle is to create usable samples focused on meaningful aspects of the ESC landscape. As a baseline the repository structure has been set as follows:
+```
 .
 +-- LICENSE
 +-- README.md
@@ -17,7 +18,7 @@ The guiding principle is to create usable samples focused on meaningful aspects 
     \---3-messaging_component
         +---embedded
         \---packaged		
-
+```
 		
 
 		
