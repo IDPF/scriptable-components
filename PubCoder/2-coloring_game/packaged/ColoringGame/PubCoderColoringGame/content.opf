@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<package xmlns="http://www.idpf.org/2007/opf" unique-identifier="67e9f940-f7aa-11e4-a322-1697f925ec7b" version="3.0" prefix="rendition: http://www.idpf.org/vocab/rendition/#">
+  <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+<!-- METADATA -->
+	<!--Specific dc: for SC -->
+	<dc:type>scriptable-component</dc:type>
+	<dc:title>PubCoder Coloring Game</dc:title>
+	<dc:creator>PubCoderColoringGame</dc:creator>
+	<dc:identifier id="67e9f940-f7aa-11e4-a322-1697f925ec7b">urn:isbn:9781234567890</dc:identifier>
+	<!--end Specific for SC -->
+	<dc:description>A Scriptable Component</dc:description>
+	<dc:publisher>PubCoder Srl</dc:publisher>
+	<dc:date>2015-05-11</dc:date>
+	<dc:rights>© 2015 PubCoder Srl</dc:rights>
+	<dc:language>en</dc:language>
+     <meta property="identifier-type" refines="#67e9f940-f7aa-11e4-a322-1697f925ec7b">unique-identifier</meta>
+	<!--Specific meta for SC -->
+	<meta property="epubsc:version">1.0</meta>
+	<meta property="epubsc:scripted">true</meta>
+	<meta property="epubsc:local-storage-required">false</meta>
+	<meta property="epubsc:network-access-required">false</meta>
+	<meta property="epubsc:params-required">false</meta>
+	<meta property="epubsc:viewport">width=1024, height=768</meta>
+	<!--end Specific meta for SC -->
+	<meta name="generator" content="PubCoder for Mac OS X"/>
+	<meta property="dcterms:modified">2015-05-11T08:46:47Z</meta>
+</metadata>	
+	<manifest>
+<!-- GENERAL ASSETS  -->
+		<item id="toc" href="toc.xhtml" media-type="application/xhtml+xml" properties="nav"/>
+		<item id="cssContent" href="css/general.styles.css" media-type="text/css"/>
+		<item id="SCDrawer-trash" href="images/scdrawer-trash.png" media-type="image/png"/>
+		
+<!-- JAVASCRIPT -->
+		<item id="jquery" href="js/jquery.js" media-type="text/javascript" />
+		<item id="pubcoder_general_functions" href='js/general.functions.js' media-type="text/javascript" />
+		<item id="drawer_js" href='js/drawer.js' media-type="text/javascript" />
+		
+<!-- PAGES ASSETS -->
+		<!--page 1-->
+<item id="css1" href="assets/1/styles.css" media-type="text/css"/>
+<item id="page1" href="assets/1/page.xhtml" media-type="application/xhtml+xml" properties="scripted"/>
+<item id="obj5644_image" href="assets/images/obj5644_image.jpeg" media-type="image/jpeg"/>
+<item id="image22" href="assets/images/coloring1.png" media-type="image/png"/>
+<item id="image23" href="assets/images/coloring2.png" media-type="image/png"/>
+<item id="image24" href="assets/images/coloring3.png" media-type="image/png"/>
+<!--page 1: end-->
+	</manifest>
+	
+	<spine page-progression-direction="ltr">
+		<itemref idref="page1" />
+	</spine>
+	
+	<guide> 
+      <reference type="cover" title="Cover" href="assets/1/page.xhtml"/>
+      <reference type="text" title="Story start" href="assets/1/page.xhtml"/>
+  </guide>	
+</package>
