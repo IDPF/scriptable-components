@@ -1,12 +1,11 @@
 <?xml version="1.0"?>
-<package xmlns="http://www.idpf.org/2007/opf" unique-identifier="6755f7a6-f4b0-11e4-b9b2-1697f925ec7b" version="3.0" prefix="rendition: http://www.idpf.org/vocab/rendition/#">
+<package xmlns="http://www.idpf.org/2007/opf" unique-identifier="SC" version="3.0" prefix="rendition: http://www.idpf.org/vocab/rendition/#">
   <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">   
 <!-- METADATA -->
-	<!--Specific dc: for SC -->
 	<dc:type>scriptable-component</dc:type>
 	<dc:title>The PubCoder Feature Showcase</dc:title>
 	<dc:creator>PubCoderImageGallery</dc:creator>
-	<dc:identifier id="6755f7a6-f4b0-11e4-b9b2-1697f925ec7b">urn:isbn:9781234567890</dc:identifier>
+	<dc:identifier id="SC">urn:isbn:9781234567890</dc:identifier>
 	<dc:description>A Scriptable Component</dc:description>
 	<dc:publisher>PubCoder Srl</dc:publisher>
 	<dc:date>2015-05-07</dc:date>
@@ -19,7 +18,6 @@
 	<meta property="epubsc:network-access-required">false</meta>
 	<meta property="epubsc:params-required">false</meta>
 	<meta property="epubsc:viewport">width=1024, height=768</meta>
-	<!--end Specific meta for SC -->
 	<meta name="generator" content="PubCoder for Mac OS X"/>
 	<meta property="rendition:layout">pre-paginated</meta>	
 	<meta property="rendition:orientation">landscape</meta>
