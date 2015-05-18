@@ -11,8 +11,7 @@
 	<dc:date>2015-05-07</dc:date>
 	<dc:rights>© 2015 PubCoder Srl</dc:rights>
 	<dc:language>en</dc:language>
-     <meta property="identifier-type" refines="#6755f7a6-f4b0-11e4-b9b2-1697f925ec7b">unique-identifier</meta>
-	<meta property="epubsc:version">1.0</meta>
+    <meta property="epubsc:version">1.0</meta>
 	<meta property="epubsc:scripted">true</meta>
 	<meta property="epubsc:local-storage-required">false</meta>
 	<meta property="epubsc:network-access-required">false</meta>
