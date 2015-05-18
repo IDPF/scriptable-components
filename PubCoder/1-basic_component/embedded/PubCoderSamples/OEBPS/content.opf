@@ -1,0 +1,154 @@
+<?xml version="1.0"?>
+<package xmlns="http://www.idpf.org/2007/opf" unique-identifier="BookID" version="3.0" prefix="rendition: http://www.idpf.org/vocab/rendition/#">
+  <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+<!-- METADATA -->
+	<meta name="generator" content="PubCoder for Mac OS X"/>
+	<meta property="rendition:layout">pre-paginated</meta>	
+	<meta property="rendition:orientation">landscape</meta>
+	<meta property="rendition:spread">none</meta>
+	<meta property="dcterms:modified">2015-05-17T06:49:29Z</meta>
+	<dc:title>PubCoder Sample Embedded Scriptable Components</dc:title>
+	<dc:creator>Paolo Albert</dc:creator>
+	<dc:description>An ebook created to sample embedded Scriptable Components</dc:description>
+	<dc:publisher>PubCoder Srl</dc:publisher>
+	<dc:date>2015-05-17</dc:date>
+	<dc:rights>© 2014 PubCoder Srl</dc:rights>
+	<dc:language>en</dc:language>
+	<dc:identifier id="BookID">PUBCODER-SCRIPTABLE-COMPONENTS</dc:identifier>
+</metadata>	
+<!-- MANIFEST -->
+	<manifest>
+<!-- GENERAL ASSETS  -->
+		<item id="toc" href="toc.xhtml" media-type="application/xhtml+xml" properties="nav"/>
+		<item id="cssContent" href="css/general.styles.css" media-type="text/css"/>
+		<item id="cover-image" properties="cover-image" href="assets/images/cover.jpg" media-type="image/jpeg" />
+<!-- FONTS -->		
+<item id="font4" href="fonts/Droid-Sans-700.ttf" media-type="application/x-font-truetype"/>
+		<!--page 1-->
+<item id="css1" href="assets/1/styles.css" media-type="text/css"/>
+<item id="page1" href="assets/1/page.xhtml" media-type="application/xhtml+xml" />
+<item id="obj7129_image" href="assets/images/obj7129_image.png" media-type="image/png"/>
+<!--page 1: end-->
+<!--page 2-->
+<item id="css2" href="assets/2/styles.css" media-type="text/css"/>
+<item id="page2" href="assets/2/page.xhtml" media-type="application/xhtml+xml" />
+<item id="obj7139_image" href="assets/images/obj7139_image.jpeg" media-type="image/jpeg" />
+<!--page 2: end-->
+<!--page 3-->
+<item id="css3" href="assets/3/styles.css" media-type="text/css"/>
+<item id="page3" href="assets/3/page.xhtml" media-type="application/xhtml+xml" />
+<!--page 3: end-->
+<!--page 4-->
+<item id="css4" href="assets/4/styles.css" media-type="text/css"/>
+<item id="page4" href="assets/4/page.xhtml" media-type="application/xhtml+xml" />
+<!--page 4: end-->
+	</manifest>
+	<spine page-progression-direction="ltr">
+		<itemref idref="page1" />
+		<itemref idref="page2" />
+		<itemref idref="page3" />
+		<itemref idref="page4" />
+	</spine>
+	
+	<guide> 
+      <reference type="cover" title="Cover" href="assets/1/page.xhtml"/>
+      <reference type="text" title="Story start" href="assets/2/page.xhtml"/>
+  </guide>	
+	<!--embed PubCoderImageGallery Scriptable Component -->
+	<collection role="scriptable-component">
+        <metadata>
+        	<dc:type>scriptable-component</dc:type>
+			<dc:title>PubCoder Image Gallery</dc:title>
+			<dc:creator>PubCoderImageGallery</dc:creator>
+			<dc:description>A Scriptable Component</dc:description>
+			<dc:publisher>PubCoder Srl</dc:publisher>
+			<dc:date>2015-05-07</dc:date>
+			<dc:rights>© 2015 PubCoder Srl</dc:rights>
+			<dc:language>en</dc:language>
+		    <meta property="epubsc:version">1.0</meta>
+			<meta property="epubsc:scripted">true</meta>
+			<meta property="epubsc:local-storage-required">false</meta>
+			<meta property="epubsc:network-access-required">false</meta>
+			<meta property="epubsc:params-required">false</meta>
+			<meta property="epubsc:viewport">width=1024, height=768</meta>
+			<meta name="generator" content="PubCoder for Mac OS X"/>
+		</metadata>
+		<collection role="manifest">
+			<link href="../components/PubCoderImageGallery/css/general.styles.css">
+			<link href="../components/PubCoderImageGallery/images/scphotogallery-fullscreen-close.png"/>
+			<link href="../components/PubCoderImageGallery/images/scphotogallery-fullscreen-open.png"/>
+			<link href="../components/PubCoderImageGallery/images/scphotogallery-index-close.png" />
+			<link href="../components/PubCoderImageGallery/images/scphotogallery-index-open.png" />
+			<link href="../components/PubCoderImageGallery/images/scphotogallery-next.png" />
+			<link href="../components/PubCoderImageGallery/images/scphotogallery-prev.png" />
+			<link href="../components/PubCoderImageGallery/images/scphotogallery-thumb-next.png" />
+			<link href="../components/PubCoderImageGallery/images/scphotogallery-thumb-prev.png" />
+			<!-- FONTS -->		
+			<link href="../components/PubCoderImageGallery/fonts/Droid-Sans-700.ttf"/>
+			<!-- JAVASCRIPT -->
+	    	<link href="../components/PubCoderImageGallery/js/jquery.js" />
+	   		<link href="../components/PubCoderImageGallery/js/jquery.ui.js" />
+	   		<link href="../components/PubCoderImageGallery/js/jquery.easie-min.js" />
+	   		<link href="../components/PubCoderImageGallery/js/jquery-css-transform.js" />
+			<link href="../components/PubCoderImageGallery/js/general.functions.js" />
+			<link href="../components/PubCoderImageGallery/js/idangerous.swiper-2.3.js" />
+			<link href="../components/PubCoderImageGallery/js/photogallery.js" />
+			<!-- PAGES ASSETS -->
+		<!--page 1-->
+			<link href="../components/PubCoderImageGallery/assets/1/actions.js" />
+			<link href="../components/PubCoderImageGallery/assets/1/styles.css" />
+			<link href="../components/PubCoderImageGallery/assets/1/page.xhtml" />
+			<link href="../components/PubCoderImageGallery/assets/images/obj7086_image.jpeg" />
+			<link href="../components/PubCoderImageGallery/assets/images/IMG_2505.jpg" />
+			<link href="../components/PubCoderImageGallery/assets/images/IMG_0595.JPG" />
+			<link href="../components/PubCoderImageGallery/assets/images/IMG_0580.JPG" />
+			<link href="../components/PubCoderImageGallery/assets/images/IMG_0464.JPG" />
+			<link href="../components/PubCoderImageGallery/assets/images/IMG_0474.JPG" />
+			<link href="../components/PubCoderImageGallery/assets/images/IMG_0477.JPG" />
+			<link href="../components/PubCoderImageGallery/assets/images/IMG_0505.JPG" />
+			<link href="../components/PubCoderImageGallery/assets/images/IMG_0516.JPG" />
+			<link href="../components/PubCoderImageGallery/assets/images/IMG_0546.JPG" />
+		</collection>
+	<link href="../components/PubCoderImageGallery/assets/1/page.xhtml"/>
+	</collection>
+	<!--embed PubCoderImageGallery Scriptable Component: END -->
+	<!--embed PubCoderColoringGame Scriptable Component -->
+	<collection role="scriptable-component">
+        <metadata>
+        	<dc:type>scriptable-component</dc:type>
+			<dc:title>PubCoder Coloring Game</dc:title>
+			<dc:creator>PubCoderColoringGame</dc:creator>
+			<dc:description>A Scriptable Component</dc:description>
+			<dc:publisher>PubCoder Srl</dc:publisher>
+			<dc:date>2015-05-11</dc:date>
+			<dc:rights>© 2015 PubCoder Srl</dc:rights>
+			<dc:language>en</dc:language>
+			<meta property="epubsc:version">1.0</meta>
+			<meta property="epubsc:scripted">true</meta>
+			<meta property="epubsc:local-storage-required">false</meta>
+			<meta property="epubsc:network-access-required">false</meta>
+			<meta property="epubsc:params-required">false</meta>
+			<meta property="epubsc:viewport">width=1024, height=768</meta>
+			<meta name="generator" content="PubCoder for Mac OS X"/>
+		</metadata>
+		<collection role="manifest">
+			<link href="../components/PubCoderColoringGame/css/general.styles.css" />
+			<link href="../components/PubCoderColoringGame/images/scdrawer-trash.png" />
+			<!-- JAVASCRIPT -->
+			<link href="../components/PubCoderColoringGame/js/jquery.js" />
+			<link href="../components/PubCoderColoringGame/js/general.functions.js" />
+			<link href="../components/PubCoderColoringGame/js/drawer.js" />
+			<!-- PAGES ASSETS -->
+					<!--page 1-->
+			<link href="../components/PubCoderColoringGame/assets/1/actions.js" />		
+			<link href="../components/PubCoderColoringGame/assets/1/styles.css" />
+			<link href="../components/PubCoderColoringGame/assets/1/page.xhtml" />
+			<link href="../components/PubCoderColoringGame/assets/images/obj5644_image.jpeg" />
+			<link href="../components/PubCoderColoringGame/assets/images/coloring1.png" />
+			<link href="../components/PubCoderColoringGame/assets/images/coloring2.png" />
+			<link href="../components/PubCoderColoringGame/assets/images/coloring3.png" />
+		</collection>
+	<link href="../components/PubCoderColoringGame/assets/1/page.xhtml"/>
+	</collection>
+	<!--embed PubCoderColoringGame Scriptable Component -->
+</package>
