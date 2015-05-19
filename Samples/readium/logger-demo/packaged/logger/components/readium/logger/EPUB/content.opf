@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<package xmlns="http://www.idpf.org/2007/opf" unique-identifier="pub-id" version="3.0">
+    <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">   
+	
+	    <!--general metadata -->
+	    <dc:type>scriptable-component</dc:type>
+	    <dc:title>ESC-Logger</dc:title>
+	    <dc:creator>Readium</dc:creator>
+	    <dc:creator>Ric Wright</dc:creator>
+	    <dc:identifier id="pub-id">urn:uuid:7179a8d3-55d7-409c-9752-0a4cd10dcb72</dc:identifier>
+	    <dc:description>A Simple Logger</dc:description>
+	    <dc:publisher>Readium</dc:publisher>
+	    <dc:date>2015-05-08</dc:date>
+	    <dc:rights>Readium Foundation</dc:rights>
+	    <dc:language>en</dc:language>
+	    <meta property="dcterms:modified">2015-05-19T08:46:47Z</meta>
+	    <meta name="generator" content="epubcrude"/>
+	    
+        <!-- widget-specific metadata -->
+	    <meta property="epubsc:version">1.0.20150519</meta>
+	    <meta property="epubsc:scripted">true</meta>
+	    <meta property="epubsc:local-storage-required">false</meta>
+	    <meta property="epubsc:network-access-required">false</meta>
+	    <meta property="epubsc:params-required">false</meta>
+	    <meta property="epubsc:viewport">width=1024, height=768</meta>
+	    <!--rendition metadata -->
+	    <meta property="rendition:layout">pre-paginated</meta>	
+	    <meta property="rendition:orientation">portrait</meta>
+	    <meta property="rendition:spread">none</meta>
+    </metadata>	
+
+    <manifest>   
+        <!-- css -->
+        <item id="logger-css" href="css/logger.css" media-type="text/css"/>
+        <!--front matter  -->
+	    <item id="toc" href="xhtml/nav.xhtml" media-type="application/xhtml+xml" properties="nav"/>
+        <!-- javascript -->
+        <item id="logger-js" href="js/logger.js" media-type="text/javascript" />
+        <!-- logger page -->
+        <item id="logger" href="xhtml/logger.xhtml" media-type="application/xhtml+xml" properties="scripted"/>
+    </manifest>
+	
+	<spine page-progression-direction="ltr">
+		<itemref idref="logger" />
+	</spine>
+</package>
