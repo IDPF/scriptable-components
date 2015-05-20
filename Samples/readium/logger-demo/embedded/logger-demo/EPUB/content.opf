@@ -38,9 +38,9 @@
         <!-- container page -->
         <item id="logger-demo" href="xhtml/logger-demo.xhtml" media-type="application/xhtml+xml" properties="scripted"/>
 		<!-- the widget's manifest items -->
-		<item id="logger" href="../components/readium/logger/EPUB/xhtml/logger.xhtml" media-type="application/xhtml+xml" properties="scripted"/>
-        <item id="logger-css" href="../components/readium/logger/EPUB/css/logger.css" media-type="text/css"/>
-		<item id="logger-js" href="../components/readium/logger/EPUB/js/logger.js" media-type="text/javascript" />
+		<item id="logger" href="components/readium/logger/EPUB/xhtml/logger.xhtml" media-type="application/xhtml+xml" properties="scripted"/>
+        <item id="logger-css" href="components/readium/logger/EPUB/css/logger.css" media-type="text/css"/>
+		<item id="logger-js" href="components/readium/logger/EPUB/js/logger.js" media-type="text/javascript" />
 	</manifest>
 			
 	<spine page-progression-direction="ltr">
@@ -57,11 +57,11 @@
 		</metadata>
 
 		<collection role="manifest">
-        	<link href="../components/readium/logger/EPUB/xhtml/logger.xhtml"/>
-            <link href="../components/readium/logger/EPUB/css/logger.css"/>
-			<link href="../components/readium/logger/EPUB/js/logger.js"/>
+        	<link href="components/readium/logger/EPUB/xhtml/logger.xhtml"/>
+            <link href="components/readium/logger/EPUB/css/logger.css"/>
+			<link href="components/readium/logger/EPUB/js/logger.js"/>
 		</collection>
 
-		<link href="../components/readium/logger/EPUB/xhtml/logger.xhtml"/>
+		<link href="components/readium/logger/EPUB/xhtml/logger.xhtml"/>
 	</collection>
 </package>
