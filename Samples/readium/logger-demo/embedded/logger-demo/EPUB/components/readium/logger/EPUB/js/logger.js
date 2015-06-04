@@ -1,6 +1,7 @@
 window.onload = function() {
 	// Get a reference to the <div> on the page that will display the message text.
-	var logElement = document.getElementById('loggerDiv');
+	var loggerDiv = document.getElementById('loggerDiv');
+	console.log('The logger JS got loaded!');
 
 	// A function to process messages received by the window.
 	function receiveMessage(e) {
@@ -12,8 +13,9 @@ window.onload = function() {
 
 		// Update the div element to display the message.
 		var newMsg = document.createTextNode("Message Received: " + e.data + " : " + new Date());
-		logElement.appendChild(newMsg);
-		logElement.appendChild(document.createElement("br"));
+		loggerDiv.appendChild(newMsg);
+		loggerDiv.appendChild(document.createElement("br"));
+		loggerDiv.scrollTop = loggerDiv.scrollHeight;
 	}
 
 	//	document.domain = "http://www.geofx.com";

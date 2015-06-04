@@ -7,16 +7,20 @@
 
 </head>
 <body>
-	<h1>Controller Window</h1>
-	<p>
-	  This document is on the local domain
-	</p>
+	<h2>Controller Window</h2>
+	
+	<div id="controllerDiv" style="width:90%; height:400px;overflow:auto; border-style:solid;border-width:1px;border-color:gray">
+
+	</div>
+	
 	<p>
 		<button id="send">Send Message</button>
 	</p>
 
-	<iframe id="receiver" src="../components/readium/logger/EPUB/xhtml/logger.xhtml" 
-        width="600" height="200">
+	<h2>Widget iFrame</h2>
+	
+	<iframe id="receiver" name="receiver" src="../components/readium/logger/EPUB/xhtml/logger.xhtml" 
+        width="90%" height="400px" style="overflow:none">
 	</iframe>
 	
 	<script src="../js/logger-demo.js"></script>
