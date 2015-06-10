@@ -11,22 +11,12 @@ window.onload = function() {
 		// if (e.origin !== "http://www.geofx.com")
 		//     return;
 
-		var t = loggerDiv.scrollTop;
-		var h = loggerDiv.scrollHeight;
-		var width = window.frameElement.offsetWidth;
-		var height = window.frameElement.offsetHeight;
-		var heightpx = "overflow:auto;height:" + height + "px";
-		//loggerDiv.setAttribute("style",heightpx)
 		loggerDiv.style.height= window.frameElement.offsetHeight + "px";
-		console.log("t: " + t + " h: " + h);
-		console.log("width: " + width + " height: " + height);
 		// Update the div element to display the message.
 		var newMsg = document.createTextNode("Message Received: " + e.data + " : " + new Date());
 		loggerDiv.appendChild(newMsg);
 		loggerDiv.appendChild(document.createElement("br"));
-		loggerDiv.scrollTop = loggerDiv.scrollHeight;
-		console.log(" scrollTop: " + loggerDiv.scrollTop);
-		
+		loggerDiv.scrollTop = loggerDiv.scrollHeight;		
 	}
 
 	//	document.domain = "http://www.geofx.com";
