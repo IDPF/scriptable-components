@@ -14,11 +14,6 @@ window.onload = function() {
 
 	var controllerDiv = document.getElementById('controllerDiv');
 
-	// handle the load event to alert listeners that we are ready
-	//iframeWindow.onload = function() {
-	//	  console.log("receiver iframewindow is loaded");
-	//}
-
 	// A function to handle sending messages.
 	function sendMessage(e) {
 		// Prevent any default browser behaviour.
@@ -28,7 +23,9 @@ window.onload = function() {
 		receiver.postMessage('Hello Logger!', '*' ); //'http://www.geofx.com');
 		
 		// Update the div element to display the sent-message.
-		var newMsg = document.createTextNode("Message Sent: " + new Date());
+		var d = new Date();
+		var newMsg = document.createTextNode(d.toLocaleTimeString() + " " + d.toLocaleTimeString()+ " " + d.toLocaleTimeString()+ " " + d.toLocaleTimeString()+ 
+				      " " + d.toLocaleTimeString()+ " " + d.toLocaleTimeString()+ " " + d.toLocaleTimeString());
 		controllerDiv.appendChild(newMsg);
 		controllerDiv.appendChild(document.createElement("br"));
 		controllerDiv.scrollTop = controllerDiv.scrollHeight;
