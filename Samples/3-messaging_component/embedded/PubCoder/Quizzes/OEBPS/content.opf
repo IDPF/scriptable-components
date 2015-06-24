@@ -10,14 +10,14 @@
 	<meta property="media:active-class">-epub-media-overlay-active</meta>
 	<meta property="media:duration">00:00:00</meta>
 	
-	<dc:title>The PubCoder Feature Showcase</dc:title>
-	<dc:creator>Angelo Scicolone</dc:creator>
+	<dc:title>Scriptable Components messaging API sample</dc:title>
+	<dc:creator>Paolo Albert</dc:creator>
 	<dc:description>A book for testing PubCoder functionalities</dc:description>
 	<dc:publisher>PubCoder Srl</dc:publisher>
 	<dc:date>2015-06-15</dc:date>
 	<dc:rights>© 2014 PubCoder Srl</dc:rights>
 	<dc:language>en</dc:language>
-	<dc:identifier id="BookID">PUBCODER-130-EXAMPLE-BOOK</dc:identifier>
+	<dc:identifier id="BookID">SC-Messaging-Api</dc:identifier>
 </metadata>	
 <!-- MANIFEST -->
 	<manifest>
