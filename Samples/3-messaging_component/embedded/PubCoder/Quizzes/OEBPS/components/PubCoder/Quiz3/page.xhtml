@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<!-- NAMESPACE: START -->
+<html xmlns="http://www.w3.org/1999/xhtml" 
+	  xmlns:epub="http://www.idpf.org/2007/ops" 
+	  xmlns:ev="http://www.w3.org/2001/xml-events"
+	  xmlns:ibooks="http://apple.com/ibooks/html-extensions">
+<!-- NAMESPACE: END -->
+<!-- HEADERS: START -->
+	<head>
+		<meta name="generator" content="PubCoder for Mac OS X" />
+		<meta charset="utf-8"/>
+    	<title>Quiz 3</title>
+		<meta name="viewport" content="width=407, height=272" /> 
+<!-- GENERAL STYLES: START -->		
+		<link rel="stylesheet" type="text/css" href="styles.css" />
+		
+<!-- PAGE STYLES: END -->
+<!-- GENERAL JAVASCRIPTS: START -->		
+<script type="text/javascript" src="../shared/js/jquery.js"></script>
+<script type="text/javascript" src="../shared/js/jquery.jgestures.js"></script> 
+<script type="text/javascript" src="../shared/js/jquery.ui.js"></script>	
+<script type='text/javascript' src='../shared/js/jquery.easie-min.js'></script>
+<script type='text/javascript' src='../shared/js/jquery.SCswipe.js'></script>
+<script type="text/javascript" src="../shared/js/general.functions.js"></script>
+<script type="text/javascript" src="../shared/js/idangerous.swiper-2.3.js"></script>
+<script type="text/javascript" src="../shared/js/quiz-multi.js"></script>
+
+<!-- GENERAL JAVASCRIPTS: END -->	
+<!-- NAVIGATION JAVASCRIPTS: START -->		
+		
+<!-- NAVIGATION JAVASCRIPTS: END -->	
+<!-- ACTIONS: START -->		
+		<script type="text/javascript" src="actions.js"></script>	  		 
+<!-- ACTIONS: END -->	
+		<script type="text/javascript">
+		<![CDATA[
+		//Scriptable Components pubsub protocol initialisation
+			//define component udid
+			window.SCcomponentId = generateComponentID_(); 
+			
+			//define messageId global var
+			window.SCmessageId = 0; 
+
+			//define component topic
+			window.SCtopic = "quiz_letters";
+
+			//onload send ready message
+			window.onload = function() {
+				//Scriptable Components pubsub protocol: initialize
+				var epubsc_message_quiz = {
+			        "componentId": window.SCcomponentId,
+			        "messageId": window.SCcomponentId + "+" + generateMessageID_(window.SCmessageId),
+			        "timestamp": Date.now(),
+			        "type": "epubsc_message",
+			        "method": "epubsc_publish",
+			        "topic": "epubsc_ready"
+				};
+				parent.postMessage(epubsc_message_quiz, '*' );
+			}
+		
+		]]>
+		</script>
+
+<!-- CUSTOM HEADERS: END -->		 
+    </head>
+<!-- HEADERS: END -->
+    <body>
+		<div dir="ltr">
+			
+			<div >
+<!-- PAGE OBJECTS: START -->
+				
+<div id="obj7284" class="SCQuiz" >
+<div id="quizTitle" style="display:none">Third quiz: the letters</div>
+  <section class="practice" epub:type="practice" id="obj7284_practice">
+    <header>
+      <h1 class="title" epub:type="title">
+        <span class="label"></span>
+      </h1>
+    </header>
+      
+   <!-- INIZIO SEZIONE practicediv: subsection of practice (section class) 
+          Può essere ripetuta più volte, incrementare practiceCounter-->
+    <section class="practicediv swiper-container" id="obj7284_practice_1">
+      <header>
+        <h1 class="title" epub:type="title">
+          <span class="chapter_label">
+            Quiz 
+          </span>
+          <span class="chapter_number">1</span>
+        </h1>
+      </header>
+    <!-- INIZIO SEZIONE practicelist: Each problem listitem must appear within an ol class="practicelist".
+          Può essere ripetuta più volte, incrementare problemCounter (da reinizializzare ogni volta che inizia un nuovo practicediv)   -->
+      <ol class="practicelist swiper-wrapper">
+      
+		<li class="multiple-choice-problem swiper-slide" id="obj7284_1_1">
+			<div class="question">
+				<p>Why does the fox jump over the dog?</p> <!--// question text-->
+			</div>
+			<ol class="choices">
+				<!--/// answers list-->
+									<li>
+						<input class='css-checkbox' type='checkbox' name='obj7284_1_1_choice' id='obj7284_1_1_1_choice' />
+						<label class='css-label lb-checkbox' for='obj7284_1_1_1_choice'>
+							<span class='choice-content'>They are playing</span>
+						</label>
+						 
+					</li>
+					<li>
+						<input class='css-checkbox' type='checkbox' name='obj7284_1_1_choice' id='obj7284_1_1_2_choice' />
+						<label class='css-label lb-checkbox' for='obj7284_1_1_2_choice'>
+							<span class='choice-content'>It’s an English-language pangram</span>
+						</label>
+						 
+					</li>
+					<li>
+						<input class='css-checkbox' type='checkbox' name='obj7284_1_1_choice' id='obj7284_1_1_3_choice' />
+						<label class='css-label lb-checkbox' for='obj7284_1_1_3_choice'>
+							<span class='choice-content'>The dog is lazy and the fox is quick</span>
+						</label>
+						 
+					</li>		
+			</ol> <!--/// end choices-->
+		</li> <!--/// end question-->
+      </ol> <!-- FINE practicelist -->
+    </section><!-- FINE SEZIONE practicediv -->
+      <div class="arrow-left"></div>
+      <div class="arrow-right"></div>
+       <div class='quiz-buttons'>
+        <button type='button' class='quiz-button quiz_check'>Check</button>
+        <button type='reset' class='quiz-button quiz_reset'>Reset</button>
+      </div>
+      <span class='countdown'></span>
+    </section>
+</div>
+
+<!-- PAGE OBJECTS: END -->
+<!-- CUSTOM CONTENT: START -->		
+				
+<!-- CUSTOM CONTENT: END -->
+			</div>
+<!-- SMIL: START DIV -->
+			<div id="SCFirstFakeReadAloudDiv">
+				<span id="SCFirstFakeReadAloud"></span>
+			</div>
+<!-- SMIL: STOP DIV -->
+		</div>
+		
+		
+		
+    </body>
+ </html>

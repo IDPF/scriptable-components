@@ -1,0 +1,53 @@
+div.SCContent {
+	overflow-x: hidden;
+	overflow-y: hidden;
+}
+div.SCOverlay {
+	z-index: 2;
+}
+
+
+div#obj7298 {
+position: absolute;
+overflow: hidden;
+top: 467px;
+left: 1px;
+width: 1025px;
+height: 112px;
+opacity: 1;
+z-index: 0;
+display:block;
+pointer-events: auto;
+}
+
+div#obj7302 {
+position: absolute;
+overflow: hidden;
+top: 179px;
+left: 183px;
+width: 678px;
+height: 132px;
+opacity: 1;
+z-index: 1;
+display:block;
+pointer-events: none;
+}
+img#obj7302_img {
+	position: relative;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+

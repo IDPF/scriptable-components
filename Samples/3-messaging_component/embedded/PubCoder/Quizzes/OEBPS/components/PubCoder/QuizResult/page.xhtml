@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<!-- NAMESPACE: START -->
+<html xmlns="http://www.w3.org/1999/xhtml" 
+	  xmlns:epub="http://www.idpf.org/2007/ops" 
+	  xmlns:ev="http://www.w3.org/2001/xml-events">
+<!-- NAMESPACE: END -->
+<!-- HEADERS: START -->
+	<head>
+		<meta name="generator" content="PubCoder for Mac OS X" />
+		<meta charset="utf-8"/>
+    	<title>Scriptable Components</title>
+
+<!-- GENERAL STYLES: START -->		
+		<link rel="stylesheet" type="text/css" href="../shared/css/general.styles.css" />
+<!-- GENERAL STYLES: END -->
+<!-- PAGE STYLES: START -->		
+		<link rel="stylesheet" type="text/css" href="styles.css" />
+		
+<!-- PAGE STYLES: END -->
+<!-- GENERAL JAVASCRIPTS: START -->		
+		<script type="text/javascript" src="../shared/js/jquery.js"></script>
+		<script type="text/javascript" src="../shared/js/general.functions.js"></script>
+
+<!-- GENERAL JAVASCRIPTS: END -->	
+<!-- NAVIGATION JAVASCRIPTS: START -->		
+		
+<!-- NAVIGATION JAVASCRIPTS: END -->	
+<!-- ACTIONS: START -->		
+		<script type="text/javascript">
+			<![CDATA[
+			//Scriptable Components pubsub protocol: self implementation
+			function receiveMessage(e) {
+				//if (e.data.topic == "PubCoderQuiz") {			
+				 	$('#results').empty()
+				 		.append("<div style='clear:both; margin-bottom: 10px'>" + e.data.topicData.title + "</div>")
+				 		.append("<div class='finale-quiz finale-quiz-choice-right'></div><span>" + e.data.topicData.rightNum + "</span>")
+					  	.append("<div class='finale-quiz finale-quiz-choice-wrong'></div><span>" + e.data.topicData.wrongNum + "</span>")
+					  	.append("<div class='finale-quiz finale-quiz-choice-missed'></div><span>" + e.data.topicData.missedNum + "</span>");
+			  	
+			
+			//}
+			}
+			//Scriptable Components pubsub protocol: define component udid
+			window.SCcomponentId = generateComponentID_(); 
+			window.SCmessageId = 0; 
+			
+			//When loading send messages about being ready and about subscription
+			window.onload = function() {
+				
+				//Scriptable Components pubsub protocol: initialize
+				var epubsc_message_result = {
+			        "componentId": window.SCcomponentId,
+			        "messageId": window.SCcomponentId + "+" + generateMessageID_(window.SCmessageId),
+			        "timestamp": Date.now(),
+			        "type": "epubsc_message",
+			        "method": "epubsc_publish",
+			        "topic": "epubsc_ready"
+				};
+				parent.postMessage(epubsc_message_result, '*' );
+
+				//Scriptable Components pubsub protocol: subscribe to the quizzes
+				var epubsc_message_subscrition_fox = {
+			        "componentId": window.SCcomponentId,
+			        "messageId": window.SCcomponentId + "+" + generateMessageID_(window.SCmessageId),
+			        "timestamp": Date.now(),
+			        "type": "epubsc_message",
+			        "method": "epubsc_subscribe",
+			        "topic": "quiz_fox"
+				};
+				parent.postMessage(epubsc_message_subscrition_fox, '*' );
+
+				var epubsc_message_subscrition_dog = {
+			        "componentId": window.SCcomponentId,
+			        "messageId": window.SCcomponentId + "+" + generateMessageID_(window.SCmessageId),
+			        "timestamp": Date.now(),
+			        "type": "epubsc_message",
+			        "method": "epubsc_subscribe",
+			        "topic": "quiz_dog"
+				};
+				parent.postMessage(epubsc_message_subscrition_dog, '*' );
+
+				var epubsc_message_subscrition_letters = {
+			        "componentId": window.SCcomponentId,
+			        "messageId": window.SCcomponentId + "+" + generateMessageID_(window.SCmessageId),
+			        "timestamp": Date.now(),
+			        "type": "epubsc_message",
+			        "method": "epubsc_subscribe",
+			        "topic": "quiz_letters"
+				};
+				parent.postMessage(epubsc_message_subscrition_letters, '*' );
+
+				//add event listener to message for its own implementation
+				window.addEventListener('message', receiveMessage);
+
+			}
+
+			
+			
+		
+		]]>
+		</script>
+<!-- ACTIONS: END -->	
+<!-- CUSTOM HEADERS: START -->		
+		
+
+<!-- Insert any other headers below -->
+
+<!-- CUSTOM HEADERS: END -->		 
+    </head>
+<!-- HEADERS: END -->
+    <body style="overflow:hidden; margin:0 0 0 0;padding:0 0 0 0">
+
+					
+				<div id="results" style="overflow:auto">Results of excercieses</div>
+
+		
+
+		
+    </body>
+ </html>

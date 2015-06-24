@@ -1,0 +1,33 @@
+div.SCContent {
+	overflow-x: hidden;
+	overflow-y: hidden;
+}
+div.SCOverlay {
+	z-index: 2;
+}
+
+
+div#results {
+top: 0px;
+left: 0px;
+width: 407px;
+height: 272px;
+padding-top: 100px;
+text-align: center;
+opacity: 1;
+z-index: 0;
+display:block;
+pointer-events: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+

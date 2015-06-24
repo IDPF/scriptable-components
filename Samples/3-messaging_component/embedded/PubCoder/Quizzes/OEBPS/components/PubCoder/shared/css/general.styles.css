@@ -1,0 +1,269 @@
+/* Font styles: */
+@charset "UTF-8";
+@font-face {
+font-family: "Cabin-Sketch-700";
+src: url(../fonts/Cabin-Sketch-700.ttf);
+}
+@font-face {
+font-family: "Cabin-Sketch-regular";
+src: url(../fonts/Cabin-Sketch-regular.ttf);
+}
+@font-face {
+font-family: "Calligraffitti-regular";
+src: url(../fonts/Calligraffitti-regular.ttf);
+}
+@font-face {
+font-family: "Droid-Sans-700";
+src: url(../fonts/Droid-Sans-700.ttf);
+}
+@font-face {
+font-family: "Droid-Sans-regular";
+src: url(../fonts/Droid-Sans-regular.ttf);
+}
+/* Body style */
+body{
+	padding:0;
+	margin:0;
+}
+/* Audio style */
+audio{
+	z-index:-1;
+}
+/* Page style */
+div.SCPage {
+	width: 1024px;
+	height: 768px;
+	position: relative;
+	
+}
+div.SCOverlay {
+	position: absolute;
+	z-index: 2;
+	width: 1024px;
+	height: 768px;
+	overflow: hidden;
+	pointer-events: none;
+	
+}
+div.SCContent {
+	position: absolute;
+	z-index: 1;
+	width: 1024px;
+	height: 768px;
+}
+
+.hidden
+{
+    display:none;
+}
+/* SCRectangle Style */
+.SCRectangle {
+   -moz-box-sizing:    border-box;
+   -webkit-box-sizing: border-box;
+    box-sizing:        border-box;
+}
+/* Read Aloud Styles */
+
+.swiper-container {
+	margin:0 auto;
+	position:relative;
+	overflow:hidden;
+	-webkit-backface-visibility:hidden;
+	-moz-backface-visibility:hidden;
+	-ms-backface-visibility:hidden;
+	-o-backface-visibility:hidden;
+	backface-visibility:hidden;
+	/* Fix of Webkit flickering */
+	z-index:1;
+}
+.swiper-wrapper {
+	position:relative;
+	width:100%;
+	-webkit-transition-property:-webkit-transform, left, top;
+	-webkit-transition-duration:0s;
+	-webkit-transform:translate3d(0px,0,0);
+	-webkit-transition-timing-function:ease;
+	-moz-transition-property:-moz-transform, left, top;
+	-moz-transition-duration:0s;
+	-moz-transform:translate3d(0px,0,0);
+	-moz-transition-timing-function:ease;
+	-o-transition-property:-o-transform, left, top;
+	-o-transition-duration:0s;
+	-o-transform:translate3d(0px,0,0);
+	-o-transition-timing-function:ease;
+	-o-transform:translate(0px,0px);
+	-ms-transition-property:-ms-transform, left, top;
+	-ms-transition-duration:0s;
+	-ms-transform:translate3d(0px,0,0);
+	-ms-transition-timing-function:ease;
+	transition-property:transform, left, top;
+	transition-duration:0s;
+	transform:translate3d(0px,0,0);
+	transition-timing-function:ease;
+}
+.swiper-free-mode > .swiper-wrapper {
+	-webkit-transition-timing-function: ease-out;
+	-moz-transition-timing-function: ease-out;
+	-ms-transition-timing-function: ease-out;
+	-o-transition-timing-function: ease-out;
+	transition-timing-function: ease-out;
+	margin: 0 auto;
+}
+.swiper-slide {
+	float: left;
+}
+.swiper-wp8-horizontal {
+	-ms-touch-action: pan-y;
+}
+.swiper-wp8-vertical {
+	-ms-touch-action: pan-x;
+}
+ 
+/* SCQuiz Styles */
+.SCQuiz ol {
+	margin: 0px;
+}
+.SCQuiz .question p {
+	margin-top: 0px;
+	margin-bottom: 0.5em;
+}
+.SCQuiz .practicediv {
+	margin: 0px;
+}
+.SCQuiz .title {
+	margin-bottom: 0.5em;
+}
+.SCAnimationFrame {
+	position: absolute;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+}
+/* Custom CSS Styles */
+/* Start of Default SCText Styles */
+body {
+	font-family: helvetica, arial, sans-serif;
+}
+.SCText p, h1, h2, h3, h4, h5, h6 {
+	font-family: "Droid-Sans-regular", helvetica, arial, sans-serif;
+	margin: 0px;
+	padding: 0px;
+	line-height: 1.3;
+}
+.SCText p {
+	font-size: 13px;
+	font-weight: normal;
+}
+.SCText h1, h2, h3, h4, h5, h6 {
+	font-family: "Droid-Sans-700", helvetica, arial, sans-serif;
+	font-weight: normal;
+}
+.SCText h1 { font-size: 40px; }
+.SCText h2 { font-size: 36px; }
+.SCText h3 { font-size: 24px; }
+.SCText h4 { font-size: 18px; }
+.SCText h5 { font-size: 16px; }
+.SCText h6 { font-size: 14px; }
+/* End of Default SCText Styles */
+/* Start of Style Formats defined manually */
+.SCText span.Float-Left {
+	float: left;
+}
+.SCText span.Float-Right {
+	float: right;
+}
+.SCText span.Vertical-Align-Middle {
+	display: inline-block;
+	vertical-align: middle;
+}
+.SCText span.Add-Margin {
+	margin: 10px;
+}
+.SCText span.Shadowed {
+	text-shadow: #000000 1px 1px 2px;
+}
+.SCText span.OverBlack {
+	font-family: "Droid-Sans-700", helvetica, arial, sans-serif;
+	font-size: 13px;
+	font-weight: normal;
+	color: #FFFFFF;
+}
+.SCText span.OverWhite {
+	font-family: "Droid-Sans-700", helvetica, arial, sans-serif;
+	font-size: 13px;
+	font-weight: normal;
+	color: #000000;
+}
+.SCText span.Active-Text {
+	border-bottom: 1px dotted;
+}
+.SCText p.BigText {
+	font-size: 36px;
+}
+.-epub-media-overlay-active,
+span.-epub-media-overlay-active,
+span.-epub-media-overlay-active > span {
+    border-radius: 6px;
+	transition: .1s ease-in-out;
+	-webkit-transition: .1s ease-in-out;
+    -moz-transition: .1s ease-in-out;
+    -o-transition: .1s ease-in-out;
+}
+/* End of Style Formats defined manually */
+h3 {
+	text-shadow: #fff 0px 0px 6px;
+}
+.SCText a {
+	color: inherit;
+}
+.SCButton.DefaultButtonTitle {
+	font-family: "Droid-Sans-700", helvetica, arial, sans-serif !important;
+	font-size: 13px !important;
+	font-weight: normal !important;
+}
+
+div#results .messaggio-finale{
+	width:80%;
+	margin:0 auto;
+	text-align: center;
+}
+div#results .conteggio-finale{
+	width: 100%;
+	text-align: center;
+	margin-top: 1em;
+	font-family: inherit;
+	font-size: 20px;
+	color: #000000;
+}
+div#results .conteggio-finale div{
+	width: 22px;
+	text-align: center;
+}
+div#results .finale-quiz {
+	display: inline-block;
+	margin-right: 4px;
+	vertical-align: middle;
+}
+div#results .finale-quiz-choice-right{
+	background-image : url("../images/scquiz-check-right.png");
+	background-size: 22px 22px;
+	background-repeat:  no-repeat;
+	width: 22px;
+	height: 22px;
+}
+div#results .finale-quiz-choice-wrong{
+	background-image : url("../images/scquiz-check-wrong.png");
+	background-size: 22px 22px;
+	background-repeat:  no-repeat;
+	width: 22px;
+	height: 22px;
+	margin-left: 20px;
+}
+div#results .finale-quiz-choice-missed{
+	background-image : url("../images/scquiz-check-off.png");
+	background-size: 22px 22px;
+	background-repeat:  no-repeat;
+	width: 22px;
+	height: 22px;
+	margin-left: 20px;
+}

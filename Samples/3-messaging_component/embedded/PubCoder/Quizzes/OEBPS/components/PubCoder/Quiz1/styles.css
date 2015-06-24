@@ -1,0 +1,300 @@
+div.SCContent {
+	overflow-x: hidden;
+	overflow-y: hidden;
+}
+div.SCOverlay {
+	z-index: 2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+div#obj7255 {
+	position: absolute;
+overflow: hidden;
+top: 0px;
+left: 0px;
+width: 407px;
+height: 272px;
+opacity: 1;
+z-index: 0;
+display:block;
+pointer-events: auto;
+	font-family:inherit;
+	font-size:20px;
+	text-align:left;
+	border-color: #000000;
+	border-width: 0px;
+	border-style: solid;
+	border-radius: 8px;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	background-color: rgba(255,255,255,0.8666667);
+}
+div#obj7255 h1.title {
+  display: block;
+}
+div#obj7255 .chapter_label {
+  font-family:inherit;
+  font-size:20px; 
+  color: #000000;
+}
+div#obj7255 .chapter_number {
+  display: none;
+  text-align:center; 
+  padding-left: 0px; 
+  padding-right: 10px;
+}
+div#obj7255 .counter {
+  font-family:inherit;
+  font-size:20px; 
+  color: #000000;
+}
+div#obj7255 .practice {
+	position: absolute;
+	top: 0px;
+	width: 407px;
+	height: 272px;
+}
+div#obj7255 .practicediv{
+	width: calc(100% - 32px);
+	margin: 16px;
+ 	height: calc(272px - 16px);
+}
+div#obj7255 .practice > header{
+	display:none;
+}
+div#obj7255 .practicelist{
+	padding:0;
+}
+div#obj7255  .multiple-choice-problem{
+	list-style-type: none;
+	visibility: hidden;
+}
+div#obj7255  .practicediv .choices{
+	padding:0;
+}
+div#obj7255 .practicediv .choices li{
+	margin-left: 60px;
+	margin-right: 60px;
+}
+div#obj7255 .practicediv .choices .choice-content {
+	margin-left: 6px;
+}
+/* BOTTONI */
+div#obj7255 .quiz-buttons{
+	display: block;
+	position:relative;
+	z-index: 2;
+	bottom: 30px;
+	height: 30px;
+	width: 100%;
+	text-align: center;
+	font-family: inherit;
+	font-size: 20px;
+	color: #000000;
+}
+div#obj7255 .swiper-container .quiz-buttons{
+	display: inline-block;
+	position: relative;
+	bottom: 0px;
+	margin-top: calc(272px/6);
+	text-align: center;
+	height: 30px;
+}
+div#obj7255 button.quiz-button {
+	background: #ffffff; /* Old browsers */
+	background: -moz-linear-gradient(top, #ffffff 0%, #f2f2f2 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#f2f2f2)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #ffffff 0%,#f2f2f2 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #ffffff 0%,#f2f2f2 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #ffffff 0%,#f2f2f2 100%); /* IE10+ */
+	background: linear-gradient(to bottom, #ffffff 0%,#f2f2f2 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f2f2f2',GradientType=0 ); /* IE6-9 */
+	border: 1px solid #979797;
+	border-radius: 6px;
+	font-family: inherit;
+	font-size: 20px;
+	color: #000000;
+}
+div#obj7255 .messaggio-finale{
+	width:80%;
+	margin:0 auto;
+	text-align: center;
+}
+div#obj7255 .conteggio-finale{
+	width: 100%;
+	text-align: center;
+	margin-top: 1em;
+	font-family: inherit;
+	font-size: 20px;
+	color: #000000;
+}
+div#obj7255 .conteggio-finale div{
+	width: 22px;
+	text-align: center;
+}
+div#obj7255 .finale-quiz {
+	display: inline-block;
+	margin-right: 4px;
+	vertical-align: middle;
+}
+div#obj7255 .finale-quiz-choice-right{
+	background-image : url("../shared/images/scquiz-check-right.png");
+	background-size: 22px 22px;
+	background-repeat:  no-repeat;
+	width: 22px;
+	height: 22px;
+}
+div#obj7255 .finale-quiz-choice-wrong{
+	background-image : url("../shared/images/scquiz-check-wrong.png");
+	background-size: 22px 22px;
+	background-repeat:  no-repeat;
+	width: 22px;
+	height: 22px;
+	margin-left: 20px;
+}
+div#obj7255 .finale-quiz-choice-missed{
+	background-image : url("../shared/images/scquiz-check-off.png");
+	background-size: 22px 22px;
+	background-repeat:  no-repeat;
+	width: 22px;
+	height: 22px;
+	margin-left: 20px;
+}
+div#obj7255 label.css-label{
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+div#obj7255 .arrow-left {
+	  background: url(../shared/images/scquiz-prev.png) no-repeat;
+	  background-size: 50px 50px;
+	  position: absolute;
+	  left: 5px;
+	  top: 50%;
+	  margin-top: -25px;
+	  width: 50px;
+	  height: 50px;
+	  z-index: 2;
+	  display: none;
+}
+div#obj7255 .arrow-right {
+	  background: url(../shared/images/scquiz-next.png) no-repeat;
+	  background-size: 50px 50px;
+	  position: absolute;
+	  right: 5px;
+	  top: 50%;
+	  margin-top: -25px;
+	  width: 50px;
+	  height: 50px;
+	  z-index: 2;
+	  display: none;
+}
+/* CHECKBOX UNCHECKED*/
+div#obj7255 input[type=checkbox].css-checkbox + label.css-label {
+	padding-left: 22px;
+	display: inline-block;
+	background-repeat: no-repeat;
+	background-position-x: 0px;
+	background-position-y: calc(30px/2 - 22px/2 - 1px);
+	min-height: 30px;
+	line-height: 30px;
+	vertical-align: top;
+	cursor: pointer;
+}
+div#obj7255 input[type=radio].css-checkbox + label.css-label {
+	padding-left: 22px;
+	display: inline-block;
+	background-repeat: no-repeat;
+	background-position-x: 0px;
+	background-position-y: calc(30px/2 - 22px/2 - 1px);
+	min-height: 30px;
+	line-height: 30px;
+	vertical-align: top;
+	cursor: pointer;
+}
+div#obj7255 input[type=checkbox].css-checkbox,
+div#obj7255 input[type=radio].css-checkbox{
+	display: none;
+}
+/* esempio di personalizzazione del tipo di elenco*/
+div#obj7255 .multiple-choice-problem .choices li{
+  list-style-type:none;
+}
+/* CHECKBOX */
+div#obj7255 label.css-label.lb-checkbox{
+	/*background-image : url(../shared/images/scquiz-check-off.png);*/
+	background-image : url("../shared/images/scquiz-check-off.png");
+	background-size: 22px 22px;
+}
+div#obj7255 input[type=checkbox].css-checkbox:checked + label.css-label.lb-checkbox{
+	/*background-image : url(../shared/images/scquiz-check-on.png);*/
+	background-image : url("../shared/images/scquiz-check-on.png");
+	background-size: 22px 22px;
+}
+div#obj7255 .quiz-choice-wrong input[type=checkbox].css-checkbox + label.css-label.lb-checkbox{
+	/*background-image : url(../shared/images/scquiz-check-wrong.png);*/
+	background-image : url("../shared/images/scquiz-check-wrong.png");
+	background-size: 22px 22px;
+}
+div#obj7255 .quiz-choice-right input[type=checkbox].css-checkbox + label.css-label.lb-checkbox {
+	/*background-image : url(../shared/images/scquiz-check-right.png);*/
+	background-image : url("../shared/images/scquiz-check-right.png");
+	background-size: 22px 22px;
+}
+div#obj7255 .quiz-choice-missed input[type=checkbox].css-checkbox + label.css-label.lb-checkbox {
+	/*background-image : url(../shared/images/scquiz-check-missed.png);*/
+	background-image : url("../shared/images/scquiz-check-missed.png");
+	background-size: 22px 22px;
+}
+/* RADIO */
+div#obj7255 label.css-label.lb-radio{
+	/*background-image : url(../shared/images/scquiz-radio-off.png);*/
+	background-image : url("../shared/images/scquiz-radio-off.png");
+	background-size: 22px 22px;
+}
+div#obj7255 input[type=radio].css-checkbox:checked + label.css-label.lb-radio {
+	/*background-image : url(../shared/images/scquiz-radio-on.png);*/
+	background-image : url("../shared/images/scquiz-radio-on.png");
+	background-size: 22px 22px;
+}
+div#obj7255 .quiz-choice-wrong input[type=radio].css-checkbox + label.css-label.lb-radio {
+	/*background-image : url(../shared/images/scquiz-radio-wrong.png);*/
+	background-image : url("../shared/images/scquiz-radio-wrong.png");
+	background-size: 22px 22px;
+}
+div#obj7255 .quiz-choice-right input[type=radio].css-checkbox + label.css-label.lb-radio {
+	/*background-image : url(../shared/images/scquiz-radio-right.png);*/
+	background-image : url("../shared/images/scquiz-radio-right.png");
+	background-size: 22px 22px;
+}
+div#obj7255 .quiz-choice-missed input[type=radio].css-checkbox + label.css-label.lb-radio {
+	/*background-image : url(../shared/images/scquiz-radio-missed.png);*/
+	background-image : url("../shared/images/scquiz-radio-missed.png");
+	background-size: 22px 22px;
+}
+/* FONTS */
+div#obj7255 div.question p {
+	font-family: inherit;
+	font-size: 20px;
+	color: #000000;
+}
+div#obj7255 span.choice-content {
+	font-family: inherit;
+	font-size: 20px;
+	color: #000000;
+}
+
+
