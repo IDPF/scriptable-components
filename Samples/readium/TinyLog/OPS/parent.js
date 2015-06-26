@@ -32,7 +32,6 @@ window.onload = function() {
     	elm.appendChild(document.createElement("br"));
     	elm.scrollTop = elm.scrollHeight;
 	}
-
 }
 
 
