@@ -54,13 +54,12 @@ window.onload = function() {
 	    var data = e[key];
 	    //run function//
 	    
-	    console.log('Got event in parent');
+	    console.log('Got event in parent' + data);
 		controllerDiv.appendChild(data);
 		controllerDiv.appendChild(document.createElement("br"));
 		controllerDiv.scrollTop = controllerDiv.scrollHeight;
 
 	},false);
-	//window.addEventListener('message', receiveMessage);
 
 	// Add an event listener to sendMessage() when the send button is clicked.
 	btn.addEventListener('click', sendMessage);

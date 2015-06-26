@@ -8,14 +8,17 @@ window.onload = function() {
 	function receiveMessage(e) {
 		console.log("child window:receiveMessage");
 
-		loggerDiv.style.height= window.frameElement.offsetHeight + "px";
-		// Update the div element to display the message.
-		var newMsg = document.createTextNode("Message Received in Child: " + e.data + " : " + new Date());
-		loggerDiv.appendChild(newMsg);
-		loggerDiv.appendChild(document.createElement("br"));
-		loggerDiv.scrollTop = loggerDiv.scrollHeight;		
+		logMsg(loggerDiv, "Message Received in Child: " + e.data + " : " + new Date());	
 	}
 	
+	function logMsg( elm, msg ) {
+		elm.style.height = window.frameElement.offsetHeight + "px";
+    	var newMsg = document.createTextNode(msg);
+    	elm.appendChild(newMsg);
+    	elm.appendChild(document.createElement("br"));
+    	elm.scrollTop = elm.scrollHeight;
+	}
+
 	// listen for messages
 	window.addEventListener('message', receiveMessage);
 

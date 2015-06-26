@@ -7,6 +7,7 @@ window.onload = function() {
 	
     console.log("onLoad event in parent");
 
+    // This code lifted from: http://davidwalsh.name/window-iframe
 	// listen for messages
 	var eventMethod = window.addEventListener ? "addEventListener" : "attachEvent";
 	var eventer = window[eventMethod];
@@ -16,18 +17,22 @@ window.onload = function() {
 	eventer(messageEvent,function(e) {
 	    var key = e.message ? "message" : "data";
 	    var data = e[key];
-	    //run function//
 	    
 	    console.log("Got event in parent" + data);
 
-	    var newMsg = document.createTextNode("Message Received in Parent: " + e.data + " : " + new Date());
-		controllerDiv.appendChild(newMsg);
-		controllerDiv.appendChild(document.createElement("br"));
-		controllerDiv.scrollTop = controllerDiv.scrollHeight;
+	    logMsg(controllerDiv, "Message Received in Parent: " + e.data + " : " + new Date());
 		
 		receiver.postMessage("Hello Sonny! Got yer message","*");
 
 	},false);
+	
+	function logMsg( elm, msg ) {
+    	var newMsg = document.createTextNode(msg);
+    	elm.appendChild(newMsg);
+    	elm.appendChild(document.createElement("br"));
+    	elm.scrollTop = elm.scrollHeight;
+	}
+
 }
 
 
