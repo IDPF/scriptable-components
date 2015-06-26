@@ -1,18 +1,29 @@
+// and get the ID of the div we'll print messages to
+var controllerDiv = document.getElementById('controllerDiv');
+
 window.onload = function() {
+	console.log('The parent-window JS got loaded!');
+	
 	// Get the window displayed in the iframe.
 	var receiver = document.getElementById('receiver').contentWindow;
-	var iframeWindow = top.frames['receiver'];
-	console.log('iFrameWindow ' + iframeWindow);
 	
 	// Get a reference to the 'Send Message' button.
 	var btn = document.getElementById('send');
+	
 
-	// handle the load event to alert listeners that we are ready
-	receiver.onload = function() {
-		  console.log("receiver iframe is loaded");
+	// A function to process messages received by the window.
+	function receiveMessage(e) {
+		console.log("parentwindow:receiveMessage: " + e);
+		// Check to make sure that this message came from the correct domain.
+		// Unfortunately, this doesn't work within an EPUB
+		// if (e.origin !== "http://www.geofx.com")
+		//     return;
+
+		var newMsg = document.createTextNode("Message Received: " + e.data );
+		controllerDiv.appendChild(newMsg);
+		controllerDiv.appendChild(document.createElement("br"));
+		controllerDiv.scrollTop = controllerDiv.scrollHeight;		
 	}
-
-	var controllerDiv = document.getElementById('controllerDiv');
 
 	// A function to handle sending messages.
 	function sendMessage(e) {
@@ -31,7 +42,28 @@ window.onload = function() {
 		controllerDiv.scrollTop = controllerDiv.scrollHeight;
 	}
 
-	// Add an event listener that will execute the sendMessage() function
-	// when the send button is clicked.
+	
+	// listen for messages
+	var eventMethod = window.addEventListener ? "addEventListener" : "attachEvent";
+	var eventer = window[eventMethod];
+	var messageEvent = eventMethod == "attachEvent" ? "onmessage" : "message";
+
+	// Listen to message from child window
+	eventer(messageEvent,function(e) {
+	    var key = e.message ? "message" : "data";
+	    var data = e[key];
+	    //run function//
+	    
+	    console.log('Got event in parent');
+		controllerDiv.appendChild(data);
+		controllerDiv.appendChild(document.createElement("br"));
+		controllerDiv.scrollTop = controllerDiv.scrollHeight;
+
+	},false);
+	//window.addEventListener('message', receiveMessage);
+
+	// Add an event listener to sendMessage() when the send button is clicked.
 	btn.addEventListener('click', sendMessage);
 }
+
+
