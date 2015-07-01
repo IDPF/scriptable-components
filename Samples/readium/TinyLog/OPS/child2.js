@@ -34,10 +34,10 @@ window.onload = function() {
 	function receiveMessage(e) {
 		console.log("child window:receiveMessage");
 
-		logMsg(loggerDiv, "Message Received in Child: " + e.data + " : " + new Date());	
+		logMsg(loggerDiv, "Message Received in Child2: " + e.data + " : " + new Date());	
 		
 		debugger;
-		eventBus.publish('click', "child-publish: " + new Date());
+		eventBus.publish('click', "child2-publish: " + new Date());
 	}
 	
 	function logMsg( elm, msg ) {
@@ -59,7 +59,7 @@ window.onload = function() {
 	// listen for messages
 	window.addEventListener('click', receiveMessage);
 
-	eventBus.child1 = "zot";
+	eventBus.child2 = "zot";
 	eventBus.publish('esc_ready', "child-publish: " + new Date());
 
 }

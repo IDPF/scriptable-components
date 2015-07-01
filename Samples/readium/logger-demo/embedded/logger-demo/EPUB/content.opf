@@ -35,6 +35,7 @@
 	    <item id="toc" href="xhtml/nav.xhtml" media-type="application/xhtml+xml" properties="nav"/>
         <!-- javascript -->
        <item id="logger-demo-js" href="js/logger-demo.js" media-type="text/javascript" />
+       <item id="events-js" href="js/events.js" media-type="text/javascript" />
         <!-- container page -->
         <item id="logger-demo" href="xhtml/logger-demo.xhtml" media-type="application/xhtml+xml" properties="scripted"/>
 		<!-- the widget's manifest items -->

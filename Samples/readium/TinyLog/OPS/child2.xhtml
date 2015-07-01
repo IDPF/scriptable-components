@@ -1,6 +1,7 @@
-//  LauncherOSX
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops">
+<!--
 //
-//  Created by Ric Wright
 //  Copyright (c) 2015 Readium Foundation and/or its licensees. All rights reserved.
 //  
 //  Redistribution and use in source and binary forms, with or without modification, 
@@ -24,42 +25,15 @@
 //  LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE 
 //  OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED 
 //  OF THE POSSIBILITY OF SUCH DAMAGE.
+-->
+<head>
+	<meta charset="utf-8"/>
+	<title>Child Log-Window</title>
+</head>
+<body style="overflow:hidden; margin:0 0 0 0;padding:0 0 0 0">
+	<div id="loggerDiv" style="overflow:auto"></div>
 
-
-window.onload = function() {
-	console.log("onLoad event in child!");
-	var loggerDiv = document.getElementById('loggerDiv');
-		
-	// A function to process messages received by the window.
-	function receiveMessage(e) {
-		console.log("child window:receiveMessage");
-
-		logMsg(loggerDiv, "Message Received in Child: " + e.data + " : " + new Date());	
-		
-		debugger;
-		eventBus.publish('click', "child-publish: " + new Date());
-	}
-	
-	function logMsg( elm, msg ) {
-		elm.style.height = window.frameElement.offsetHeight + "px";
-    	var newMsg = document.createTextNode(msg);
-    	elm.appendChild(newMsg);
-    	elm.appendChild(document.createElement("br"));
-    	elm.scrollTop = elm.scrollHeight;
-	}
-
-	// listen for messages
-	window.addEventListener('message', receiveMessage);
-
-	setInterval(function() {
-		// Send the message "Hello" to the parent window
-		//parent.postMessage("Hello Dad","*");
-	},2000);
-
-	// listen for messages
-	window.addEventListener('click', receiveMessage);
-
-	eventBus.child1 = "zot";
-	eventBus.publish('esc_ready', "child-publish: " + new Date());
-
-}
+	<script src="eventBus.js"></script>
+	<script src="child2.js"></script>
+</body>
+</html>
