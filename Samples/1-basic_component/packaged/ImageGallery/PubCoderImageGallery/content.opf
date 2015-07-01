@@ -12,11 +12,9 @@
 	<dc:rights>© 2015 PubCoder Srl</dc:rights>
 	<dc:language>en</dc:language>
     <meta property="epubsc:version">1.0</meta>
-	<meta property="epubsc:scripted">true</meta>
-	<meta property="epubsc:local-storage-required">false</meta>
+	<meta property="epubsc:storage-required">false</meta>
 	<meta property="epubsc:network-access-required">false</meta>
-	<meta property="epubsc:params-required">false</meta>
-	<meta property="epubsc:viewport">width=1024, height=768</meta>
+	<meta property="epubsc:required-params">false</meta>
 	<meta name="generator" content="PubCoder for Mac OS X"/>
 	<meta property="rendition:layout">pre-paginated</meta>	
 	<meta property="rendition:orientation">landscape</meta>
@@ -27,49 +25,47 @@
 	<manifest>
 <!-- GENERAL ASSETS  -->
 		<item id="toc" href="toc.xhtml" media-type="application/xhtml+xml" properties="nav"/>
-		<item id="cssContent" href="css/general.styles.css" media-type="text/css"/>
-		<item id="SCPhotoGallery-fullscreen-close-image" href="images/scphotogallery-fullscreen-close.png" media-type="image/png"/>
-		<item id="SCPhotoGallery-fullscreen-open-image" href="images/scphotogallery-fullscreen-open.png" media-type="image/png"/>
-		<item id="SCPhotoGallery-index-close-image" href="images/scphotogallery-index-close.png" media-type="image/png"/>
-		<item id="SCPhotoGallery-index-open-image" href="images/scphotogallery-index-open.png" media-type="image/png"/>
-		<item id="SCPhotoGallery-next-image" href="images/scphotogallery-next.png" media-type="image/png"/>
-		<item id="SCPhotoGallery-prev-image" href="images/scphotogallery-prev.png" media-type="image/png"/>
-		<item id="SCPhotoGallery-thumb-next-image" href="images/scphotogallery-thumb-next.png" media-type="image/png"/>
-		<item id="SCPhotoGallery-thumb-prev-image" href="images/scphotogallery-thumb-prev.png" media-type="image/png"/>
-		
-		
-		
-<!-- FONTS -->		
-		<item id="font4" href="fonts/Droid-Sans-700.ttf" media-type="application/x-font-truetype"/>
-<!-- JAVASCRIPT -->
-	    <item id="jquery" href="js/jquery.js" media-type="text/javascript" />
-	   	<item id="jquery_ui" href="js/jquery.ui.js" media-type="text/javascript" />
-	   	<item id="jquery_easie" href="js/jquery.easie-min.js" media-type="text/javascript" />
-	   	<item id="jquery-css-transform" href='js/jquery-css-transform.js' media-type="text/javascript" />
-	   	<item id="jquery-animate-css-rotate-scale" href='js/jquery-animate-css-rotate-scale.js' media-type="text/javascript" />
-		<item id="pubcoder_general_functions" href='js/general.functions.js' media-type="text/javascript" />
-		<item id="swiper_js" href='js/idangerous.swiper-2.3.js' media-type="text/javascript" />
-		<item id="photogallery_js" href='js/photogallery.js' media-type="text/javascript" />
-<!-- PAGES ASSETS -->
-		<!--page 1-->
-<item id="js1" href="assets/1/actions.js" media-type="text/javascript" />
-<item id="css1" href="assets/1/styles.css" media-type="text/css"/>
-<item id="page1" href="assets/1/page.xhtml" media-type="application/xhtml+xml" properties="scripted"/>
-<item id="obj7086_image" href="assets/images/obj7086_image.jpeg" media-type="image/jpeg"/>
-<item id="image22" href="assets/images/IMG_2505.jpg" media-type="image/jpeg"/>
-<item id="image23" href="assets/images/IMG_0595.JPG" media-type="image/jpeg"/>
-<item id="image24" href="assets/images/IMG_0580.JPG" media-type="image/jpeg"/>
-<item id="image25" href="assets/images/IMG_0464.JPG" media-type="image/jpeg"/>
-<item id="image26" href="assets/images/IMG_0474.JPG" media-type="image/jpeg"/>
-<item id="image27" href="assets/images/IMG_0477.JPG" media-type="image/jpeg"/>
-<item id="image28" href="assets/images/IMG_0505.JPG" media-type="image/jpeg"/>
-<item id="image29" href="assets/images/IMG_0516.JPG" media-type="image/jpeg"/>
-<item id="image30" href="assets/images/IMG_0546.JPG" media-type="image/jpeg"/>
 <!--page 1: end-->
+		<item id="ece6163f-5314-44c0-a701-de625e2638a7" href="css/general.styles.css" media-type="text/css"/>
+		<item id="b8135c47-124e-4839-9c47-27a6116d2f57" href="images/scphotogallery-fullscreen-close.png" media-type="image/png"/>
+		<item id="e320a0c8-c82c-4ade-9e0d-36fbb5dd9f97" href="images/scphotogallery-fullscreen-open.png" media-type="image/png"/>
+		<item id="d6865338-7d28-4afd-9c8c-14f320a49295" href="images/scphotogallery-index-close.png" media-type="image/png"/>
+		<item id="fdf99c79-497e-494c-9df6-0e19b8d8c02f" href="images/scphotogallery-index-open.png" media-type="image/png"/>
+		<item id="bbd70535-fbf3-4a02-addb-3d756557b56e" href="images/scphotogallery-next.png" media-type="image/png"/>
+		<item id="c1726f32-996c-40c1-93e0-d57202dc6ca7" href="images/scphotogallery-prev.png" media-type="image/png"/>
+		<item id="e1f41154-61ec-48c7-8f8e-eb83838efb2d" href="images/scphotogallery-thumb-next.png" media-type="image/png"/>
+		<item id="c6c2c0b9-de1f-4d86-b1a9-9c9b6f01e709" href="images/scphotogallery-thumb-prev.png" media-type="image/png"/>
+		<!-- FONTS -->		
+		<item id="b98962ae-1605-44c1-806c-c5059fb0914f" href="fonts/Droid-Sans-700.ttf" media-type="application/x-font-truetype"/>
+		<!-- JAVASCRIPT -->
+		<item id="f25b9204-2505-48c1-bda3-68329e49674c" href='js/idangerous.swiper-2.3.js' media-type="text/javascript" />
+		<item id="ab2acd3d-84c9-41ac-b1e2-673a9a34caaa" href='js/photogallery.js' media-type="text/javascript" />
+		<item id="fab51345-7bc6-479b-a3a7-bb1b1c67731e" href="js/jquery.js" media-type="text/javascript" />
+		<item id="ce163188-8efe-426a-8006-525014a659b9" href='js/general.functions.js' media-type="text/javascript" />
+		<item id="e07338c4-3fa0-49f7-abc9-f09980e54e35" href="js/jquery.ui.js" media-type="text/javascript" />
+		<item id="c2c8d1be-c089-4ad8-a72c-d835dbea2feb" href="js/jquery.easie-min.js" media-type="text/javascript" />
+		<item id="e93d15c4-a9c5-4f9f-b54c-b4eef497e80a" href='js/jquery-css-transform.js' media-type="text/javascript" />
+		<item id="ac1c1311-afad-4531-b8f4-2376abb37038" href='js/jquery-animate-css-rotate-scale.js' media-type="text/javascript" />
+		<!-- PAGES ASSETS -->
+		<!--page-->
+		<item id="e9cbccce-ea86-4c2f-b595-2c6a1f9eedd3" href="assets/1/actions.js" media-type="text/javascript" />
+		<item id="d88f4d7a-7481-45e6-9ec4-7f78426c9de4" href="assets/1/styles.css" media-type="text/css"/>
+		<item id="e3408e88-68bb-4987-8a31-5ce5660b71c8" href="assets/1/page.xhtml" media-type="application/xhtml+xml" properties="scripted"/>
+		<item id="ce26069f-5fef-4f80-9f90-df840a505323" href="assets/images/obj7086_image.jpeg" media-type="image/jpeg"/>
+		<item id="d8cbd92f-0e9e-4fd9-bbc2-a3463fd8dd37" href="assets/images/IMG_2505.jpg" media-type="image/jpeg"/>
+		<item id="b8898783-db61-46dd-901a-3d07b9025b8d" href="assets/images/IMG_0595.JPG" media-type="image/jpeg"/>
+		<item id="b9aa1a70-956d-4fad-a4cc-b8fb0665510a" href="assets/images/IMG_0580.JPG" media-type="image/jpeg"/>
+		<item id="f17882cf-1e1a-4943-b745-0083c0448d5b" href="assets/images/IMG_0464.JPG" media-type="image/jpeg"/>
+		<item id="c42864fe-5253-461b-a000-39a2e8650448" href="assets/images/IMG_0474.JPG" media-type="image/jpeg"/>
+		<item id="c51696ac-26b0-427a-9412-1327493b0957" href="assets/images/IMG_0477.JPG" media-type="image/jpeg"/>
+		<item id="acecdae7-4a77-4d02-a052-8434f175fe2d" href="assets/images/IMG_0505.JPG" media-type="image/jpeg"/>
+		<item id="ea2a25ce-4632-4732-bf57-9cac099a36fd" href="assets/images/IMG_0516.JPG" media-type="image/jpeg"/>
+		<item id="d66b91d3-c8c0-433a-ae05-4412afa31644" href="assets/images/IMG_0546.JPG" media-type="image/jpeg"/>
+
 	</manifest>
 	
 	<spine page-progression-direction="ltr">
-		<itemref idref="page1" />
+		<itemref idref="e3408e88-68bb-4987-8a31-5ce5660b71c8" />
 	</spine>
 	
 	<guide> 
