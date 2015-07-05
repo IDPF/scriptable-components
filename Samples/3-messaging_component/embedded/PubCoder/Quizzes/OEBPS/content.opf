@@ -41,290 +41,293 @@
 		<item id="obj7129_image" href="assets/images/obj7129_image.jpeg" media-type="image/jpeg"/>
 	<!--page 2: end-->
 	<!--components-->
+
 	<!--QUIZ 1-->
-		<item id="09635446-8601-4371-893d-8d1a31957814" href="components/PubCoder/Quiz1/styles.css" media-type="text/css"/>
-		<item id="9421ce58-5980-48b0-a39d-503bbd4f6316" href="components/PubCoder/Quiz1/actions.js" media-type="text/javascript" />
-		<item id="e9d177fa-57f1-4abd-bae2-04cd8218c196" href="components/PubCoder/Quiz1/page.xhtml" media-type="application/xhtml+xml" properties="scripted"/>
+		<item id="c277594c-22e9-11e5-b5f7-727283247c7f" href="components/PubCoder/Quiz1/styles.css" media-type="text/css"/>
+		<item id="c2775f32-22e9-11e5-b5f7-727283247c7f" href="components/PubCoder/Quiz1/actions.js" media-type="text/javascript" />
+		<item id="c2776108-22e9-11e5-b5f7-727283247c7f" href="components/PubCoder/Quiz1/page.xhtml" media-type="application/xhtml+xml" properties="scripted"/>
 	<!--QUIZ 1: end-->
 	<!--QUIZ 2-->
-		<item id="de68ce8c-1739-4a7d-a0f1-531763165a2f" href="components/PubCoder/Quiz2/styles.css" media-type="text/css"/>
-		<item id="1349df2b-4176-45cf-a454-e5d8168b539c" href="components/PubCoder/Quiz2/actions.js" media-type="text/javascript" />
-		<item id="1437820f-1b60-482a-89b6-31a3464993c3" href="components/PubCoder/Quiz2/page.xhtml" media-type="application/xhtml+xml" properties="scripted"/>
+		<item id="c2776298-22e9-11e5-b5f7-727283247c7f" href="components/PubCoder/Quiz2/styles.css" media-type="text/css"/>
+		<item id="c27765ea-22e9-11e5-b5f7-727283247c7f" href="components/PubCoder/Quiz2/actions.js" media-type="text/javascript" />
+		<item id="c277677a-22e9-11e5-b5f7-727283247c7f" href="components/PubCoder/Quiz2/page.xhtml" media-type="application/xhtml+xml" properties="scripted"/>
 	<!--QUIZ 2: end-->
 	<!--QUIZ 3-->
-		<item id="57ec7a8c-901a-4433-a66a-84a37db8ec55" href="components/PubCoder/Quiz3/styles.css" media-type="text/css"/>
-		<item id="e602703a-a8aa-40e6-8316-5f62f38de764" href="components/PubCoder/Quiz3/actions.js" media-type="text/javascript" />
-		<item id="0c1c7701-b578-458d-9a55-1af3754fd102" href="components/PubCoder/Quiz3/page.xhtml" media-type="application/xhtml+xml" properties="scripted"/>
+		<item id="c27768ec-22e9-11e5-b5f7-727283247c7f" href="components/PubCoder/Quiz3/styles.css" media-type="text/css"/>
+		<item id="c2776afe-22e9-11e5-b5f7-727283247c7f" href="components/PubCoder/Quiz3/actions.js" media-type="text/javascript" />
+		<item id="c2776ea0-22e9-11e5-b5f7-727283247c7f" href="components/PubCoder/Quiz3/page.xhtml" media-type="application/xhtml+xml" properties="scripted"/>
 	<!--QUIZ 3: end-->
 	<!--QUIZ RESULT-->
-		<item id="ac057edb-9336-4d3d-9751-6fa1a4bbb157" href="components/PubCoder/QuizResult/styles.css" media-type="text/css"/>
-		<item id="90b25b69-b40a-4f2f-b259-f23a0f303a53" href="components/PubCoder/QuizResult/actions.js" media-type="text/javascript" />
-		<item id="ef4df396-b4f5-4c47-a2f4-fd80cdbf0929" href="components/PubCoder/QuizResult/page.xhtml" media-type="application/xhtml+xml" properties="scripted"/>
+		<item id="c2777026-22e9-11e5-b5f7-727283247c7f" href="components/PubCoder/QuizResult/styles.css" media-type="text/css"/>
+		<item id="c277718e-22e9-11e5-b5f7-727283247c7f" href="components/PubCoder/QuizResult/actions.js" media-type="text/javascript" />
+		<item id="c27772f6-22e9-11e5-b5f7-727283247c7f" href="components/PubCoder/QuizResult/page.xhtml" media-type="application/xhtml+xml" properties="scripted"/>
 	<!--QUIZ RESULT: end-->
 	<!-- IMAGES -->	
-		<item id="dc300278-578b-40a6-92eb-62259790eb5e" href="components/PubCoder/shared/images/scquiz-check-off.png" media-type="image/png"/>
-		<item id="30a0b644-c301-4c92-a36e-45a5516be027" href="components/PubCoder/shared/images/scquiz-check-on.png" media-type="image/png"/>
-		<item id="d174462a-7305-440d-97c5-81f0d4508e00" href="components/PubCoder/shared/images/scquiz-check-right.png" media-type="image/png"/>
-		<item id="4f2484af-ed43-44a8-9e66-4e7a52589e76" href="components/PubCoder/shared/images/scquiz-check-wrong.png" media-type="image/png"/>
-		<item id="20546435-b95a-443c-82db-8bba7bee25a8" href="components/PubCoder/shared/images/scquiz-radio-off.png" media-type="image/png"/>
-		<item id="6946b300-e715-406b-858e-9ce8ab1b45ff" href="components/PubCoder/shared/images/scquiz-radio-on.png" media-type="image/png"/>
-		<item id="3ece20f9-f84e-4892-8d5a-6362e87fc891" href="components/PubCoder/shared/images/scquiz-radio-right.png" media-type="image/png"/>
-		<item id="15857a8c-9fbb-42e5-a60c-14d2747c4e28" href="components/PubCoder/shared/images/scquiz-radio-wrong.png" media-type="image/png"/>
-		<item id="0b2175a7-a584-43f9-a63b-e00e351817e6" href="components/PubCoder/shared/images/scquiz-next.png" media-type="image/png"/>
-		<item id="db9fa404-bcbd-4b84-a065-b3a884dbe41c" href="components/PubCoder/shared/images/scquiz-prev.png" media-type="image/png"/>
-		<item id="a19790bd-fa6f-47dc-a7b2-f7a643b094c4" href="components/PubCoder/shared/images/scquiz-radio-missed.png" media-type="image/png"/>
-		<item id="bc7072fe-08ce-4ca5-b423-601aa89298c7" href="components/PubCoder/shared/images/scquiz-check-missed.png" media-type="image/png"/>
+		<item id="c277765c-22e9-11e5-b5f7-727283247c7f" href="components/PubCoder/shared/images/scquiz-check-off.png" media-type="image/png"/>
+		<item id="c277781e-22e9-11e5-b5f7-727283247c7f" href="components/PubCoder/shared/images/scquiz-check-on.png" media-type="image/png"/>
+		<item id="c2777990-22e9-11e5-b5f7-727283247c7f" href="components/PubCoder/shared/images/scquiz-check-right.png" media-type="image/png"/>
+		<item id="c2777af8-22e9-11e5-b5f7-727283247c7f" href="components/PubCoder/shared/images/scquiz-check-wrong.png" media-type="image/png"/>
+		<item id="c2777e90-22e9-11e5-b5f7-727283247c7f" href="components/PubCoder/shared/images/scquiz-radio-off.png" media-type="image/png"/>
+		<item id="c2778016-22e9-11e5-b5f7-727283247c7f" href="components/PubCoder/shared/images/scquiz-radio-on.png" media-type="image/png"/>
+		<item id="c2778174-22e9-11e5-b5f7-727283247c7f" href="components/PubCoder/shared/images/scquiz-radio-right.png" media-type="image/png"/>
+		<item id="c27782e6-22e9-11e5-b5f7-727283247c7f" href="components/PubCoder/shared/images/scquiz-radio-wrong.png" media-type="image/png"/>
+		<item id="c27786ec-22e9-11e5-b5f7-727283247c7f" href="components/PubCoder/shared/images/scquiz-next.png" media-type="image/png"/>
+		<item id="c2778872-22e9-11e5-b5f7-727283247c7f" href="components/PubCoder/shared/images/scquiz-prev.png" media-type="image/png"/>
+		<item id="c27789e4-22e9-11e5-b5f7-727283247c7f" href="components/PubCoder/shared/images/scquiz-radio-missed.png" media-type="image/png"/>
+		<item id="c27790d8-22e9-11e5-b5f7-727283247c7f" href="components/PubCoder/shared/images/scquiz-check-missed.png" media-type="image/png"/>
 		
 <!-- FONTS -->		
-		<item id="6f188471-0a39-4be8-b35d-d36f6522b5ba" href="components/PubCoder/shared/fonts/Cabin-Sketch-700.ttf" media-type="application/x-font-truetype"/>
-		<item id="43d03bd2-d2d9-4417-afa7-11235b805984" href="components/PubCoder/shared/fonts/Cabin-Sketch-regular.ttf" media-type="application/x-font-truetype"/>
-		<item id="5d956ac1-fc32-4038-afd0-0ec48fbb2ade" href="components/PubCoder/shared/fonts/Calligraffitti-regular.ttf" media-type="application/x-font-truetype"/>
-		<item id="0fbbd459-1fa9-4895-8227-518f05abc347" href="components/PubCoder/shared/fonts/Droid-Sans-700.ttf" media-type="application/x-font-truetype"/>
-		<item id="2329f678-9a0c-4451-aa52-176962c4c4a6" href="components/PubCoder/shared/fonts/Droid-Sans-regular.ttf" media-type="application/x-font-truetype"/>
+		<item id="c2778b4c-22e9-11e5-b5f7-727283247c7f" href="components/PubCoder/shared/fonts/Cabin-Sketch-700.ttf" media-type="application/x-font-truetype"/>
+		<item id="c2778cb4-22e9-11e5-b5f7-727283247c7f" href="components/PubCoder/shared/fonts/Cabin-Sketch-regular.ttf" media-type="application/x-font-truetype"/>
+		<item id="c2779286-22e9-11e5-b5f7-727283247c7f" href="components/PubCoder/shared/fonts/Calligraffitti-regular.ttf" media-type="application/x-font-truetype"/>
+		<item id="c277940c-22e9-11e5-b5f7-727283247c7f" href="components/PubCoder/shared/fonts/Droid-Sans-700.ttf" media-type="application/x-font-truetype"/>
+		<item id="c2779574-22e9-11e5-b5f7-727283247c7f" href="components/PubCoder/shared/fonts/Droid-Sans-regular.ttf" media-type="application/x-font-truetype"/>
 <!-- CSS -->
-		<item id="8330cc77-58e3-4946-b396-f2bbebb8b4a8" href="components/PubCoder/shared/css/general.styles.css" media-type="text/css"/>
+		<item id="c277993e-22e9-11e5-b5f7-727283247c7f" href="components/PubCoder/shared/css/general.styles.css" media-type="text/css"/>
 <!-- JAVASCRIPT -->
-		<item id="1ba4c5c4-5b38-4619-b984-9952b3b1198f" href="components/PubCoder/shared/js/jquery.js" media-type="text/javascript" />
-		<item id="5416ab59-7daf-4332-9607-7f5bae221035" href="components/PubCoder/shared/js/jquery.jgestures.js" media-type="text/javascript" />
-       	<item id="5def1ad5-6cfb-4b32-b8ff-1c4fb48ff02f" href="components/PubCoder/shared/js/jquery.ui.js" media-type="text/javascript" />
-		<item id="eb5e8e9b-38f8-4c6c-8b67-8724b75794d4" href="components/PubCoder/shared/js/jquery.touchpunch.js" media-type="text/javascript" />
-		<item id="b05b1ac5-5232-40c2-90fa-510f9644e27e" href="components/PubCoder/shared/js/jquery.scrollTo-min.js" media-type="text/javascript" />
-		<item id="560f39ad-d7b8-4d1f-833a-2f34c4c2cd08" href="components/PubCoder/shared/js/jquery.easie-min.js" media-type="text/javascript" />
-		<item id="549f37b5-4fd4-438b-9c61-9a383a1d5329" href='components/PubCoder/shared/js/jquery.move.js' media-type="text/javascript" />
-		<item id="ca294cc4-f23d-429f-b983-321047d40979" href='components/PubCoder/shared/js/jquery.SCswipe.js' media-type="text/javascript" />
-		<item id="91ccbdcf-1089-4889-bda1-25a96ce22f4f" href='components/PubCoder/shared/js/jquery-css-transform.js' media-type="text/javascript" />
-		<item id="9449aab6-52c5-4f45-a94a-37be1a524f0f" href='components/PubCoder/shared/js/jquery-animate-css-rotate-scale.js' media-type="text/javascript" />
-		<item id="000f5457-d9c7-4f1e-9b46-ee06fb0b9608" href='components/PubCoder/shared/js/general.functions.js' media-type="text/javascript" />
-		<item id="b1511eea-8a79-4883-957d-68d1b1ceb52f" href='components/PubCoder/shared/js/shake.js' media-type="text/javascript" />
-		<item id="582bd6c5-b01b-4e32-8552-0c044f5139b9" href='components/PubCoder/shared/js/idangerous.swiper-2.3.js' media-type="text/javascript" />
-		<item id="c750a16a-1deb-42ce-9822-ea74946f403f" href='components/PubCoder/shared/js/quiz-multi.js' media-type="text/javascript" />
-		<item id="4d48c55e-9d7b-420d-a0a3-c5f9ce4bc900" href='components/PubCoder/shared/js/SCPubSubAPI.js' media-type="text/javascript" />
+		<item id="c2779ac4-22e9-11e5-b5f7-727283247c7f" href="components/PubCoder/shared/js/jquery.js" media-type="text/javascript" />
+		<item id="c2779c22-22e9-11e5-b5f7-727283247c7f" href="components/PubCoder/shared/js/jquery.jgestures.js" media-type="text/javascript" />
+       	<item id="c2779d94-22e9-11e5-b5f7-727283247c7f" href="components/PubCoder/shared/js/jquery.ui.js" media-type="text/javascript" />
+		<item id="c277a226-22e9-11e5-b5f7-727283247c7f" href="components/PubCoder/shared/js/jquery.touchpunch.js" media-type="text/javascript" />
+		<item id="c277a3ca-22e9-11e5-b5f7-727283247c7f" href="components/PubCoder/shared/js/jquery.scrollTo-min.js" media-type="text/javascript" />
+		<item id="c277a53c-22e9-11e5-b5f7-727283247c7f" href="components/PubCoder/shared/js/jquery.easie-min.js" media-type="text/javascript" />
+		<item id="c277a6ae-22e9-11e5-b5f7-727283247c7f" href='components/PubCoder/shared/js/jquery.move.js' media-type="text/javascript" />
+		<item id="c277aa96-22e9-11e5-b5f7-727283247c7f" href='components/PubCoder/shared/js/jquery.SCswipe.js' media-type="text/javascript" />
+		<item id="c277ac26-22e9-11e5-b5f7-727283247c7f" href='components/PubCoder/shared/js/jquery-css-transform.js' media-type="text/javascript" />
+		<item id="c277ad8e-22e9-11e5-b5f7-727283247c7f" href='components/PubCoder/shared/js/jquery-animate-css-rotate-scale.js' media-type="text/javascript" />
+		<item id="d49d5e40-22ea-11e5-b5f7-727283247c7f" href='components/PubCoder/shared/js/general.functions.js' media-type="text/javascript" />
+		<item id="d49d614c-22ea-11e5-b5f7-727283247c7f" href='components/PubCoder/shared/js/shake.js' media-type="text/javascript" />
+		<item id="d49d64e4-22ea-11e5-b5f7-727283247c7f" href='components/PubCoder/shared/js/idangerous.swiper-2.3.js' media-type="text/javascript" />
+		<item id="d49d678c-22ea-11e5-b5f7-727283247c7f" href='components/PubCoder/shared/js/quiz-multi.js' media-type="text/javascript" />
+		<item id="d49d6908-22ea-11e5-b5f7-727283247c7f" href='components/PubCoder/shared/js/SCPubSubAPI.js' media-type="text/javascript" />
 	
+
+
 	<!--components: end-->
 	</manifest>
-			<!--embed Quiz1 Scriptable Component -->
-		<!-- <collection role="scriptable-component"> -->
-        	<!-- <metadata> -->
-	        	<!-- <dc:type>scriptable-component</dc:type> -->
-				<!-- <dc:title>PubCoder Quiz 1</dc:title> -->
-				<!-- <dc:creator>PubCoderQuiz</dc:creator> -->
-				<!-- <dc:description>A Scriptable Component</dc:description> -->
-				<!-- <dc:publisher>PubCoder Srl</dc:publisher> -->
-				<!-- <dc:date>2015-06-24</dc:date> -->
-				<!-- <dc:rights>© 2015 PubCoder Srl</dc:rights> -->
-				<!-- <dc:language>en</dc:language> -->
-			    <!-- <meta property="epubsc:version">1.0</meta> -->
-				<!-- <meta property="epubsc:scripted">true</meta> -->
-				<!-- <meta property="epubsc:local-storage-required">false</meta> -->
-				<!-- <meta property="epubsc:network-access-required">false</meta> -->
-				<!-- <meta property="epubsc:params-required">false</meta> -->
-				<!-- <meta property="epubsc:viewport">width=407, height=272</meta> -->
-				<!-- <meta name="generator" content="PubCoder for Scriptable Components"/> -->
-			<!-- </metadata> -->
-<!--  -->
-			<!-- <collection role="manifest"> -->
-				<!-- <link href="components/PubCoder/Quiz1/styles.css"> -->
-				<!-- <link href="components/PubCoder/Quiz1/actions.js"/> -->
-				<!-- <link href="components/PubCoder/shared/images/scquiz-check-off.png"/> -->
-				<!-- <link href="components/PubCoder/shared/images/scquiz-check-on.png"/> -->
-				<!-- <link href="components/PubCoder/shared/images/scquiz-check-right.png"/> -->
-				<!-- <link href="components/PubCoder/shared/images/scquiz-check-wrong.png"/> -->
-				<!-- <link href="components/PubCoder/shared/images/scquiz-radio-off.png"/> -->
-				<!-- <link href="components/PubCoder/shared/images/scquiz-radio-on.png"/> -->
-				<!-- <link href="components/PubCoder/shared/images/scquiz-radio-right.png"/> -->
-				<!-- <link href="components/PubCoder/shared/images/scquiz-radio-wrong.png"/> -->
-				<!-- <link href="components/PubCoder/shared/images/scquiz-next.png"/> -->
-				<!-- <link href="components/PubCoder/shared/images/scquiz-prev.png"/> -->
-				<!-- <link href="components/PubCoder/shared/images/scquiz-radio-missed.png"/> -->
-				<!-- <link href="components/PubCoder/shared/images/scquiz-check-missed.png"/> -->
-				<!-- <link href="components/PubCoder/shared/fonts/Cabin-Sketch-700.ttf"/> -->
-				<!-- <link href="components/PubCoder/shared/fonts/Cabin-Sketch-regular.ttf"/> -->
-				<!-- <link href="components/PubCoder/shared/fonts/Calligraffitti-regular.ttf"/> -->
-				<!-- <link href="components/PubCoder/shared/fonts/Droid-Sans-700.ttf"/> -->
-				<!-- <link href="components/PubCoder/shared/fonts/Droid-Sans-regular.ttf"/> -->
-				<!-- <link href="components/PubCoder/shared/css/general.styles.css"/> -->
-				<!-- <link href="components/PubCoder/shared/js/jquery.js" /> -->
-				<!-- <link href="components/PubCoder/shared/js/jquery.jgestures.js" /> -->
-		       	<!-- <link href="components/PubCoder/shared/js/jquery.ui.js" /> -->
-				<!-- <link href="components/PubCoder/shared/js/jquery.touchpunch.js" /> -->
-				<!-- <link href="components/PubCoder/shared/js/jquery.scrollTo-min.js" /> -->
-				<!-- <link href="components/PubCoder/shared/js/jquery.easie-min.js" /> -->
-				<!-- <link href='components/PubCoder/shared/js/jquery.move.js' /> -->
-				<!-- <link href='components/PubCoder/shared/js/jquery.SCswipe.js' /> -->
-				<!-- <link href='components/PubCoder/shared/js/jquery-css-transform.js' /> -->
-				<!-- <link href='components/PubCoder/shared/js/jquery-animate-css-rotate-scale.js'/> -->
-				<!-- <link href='components/PubCoder/shared/js/general.functions.js'/> -->
-				<!-- <link href='components/PubCoder/shared/js/shake.js'/> -->
-				<!-- <link href='components/PubCoder/shared/js/idangerous.swiper-2.3.js'/> -->
-				<!-- <link href='components/PubCoder/shared/js/quiz-multi.js'/> -->
-			<!-- </collection> -->
-			<!-- <link href="components/PubCoder/Quiz1/page.xhtml"/> -->
-		<!-- </collection> -->
+			<!-- embed Quiz1 Scriptable Component  -->
+		<collection role="scriptable-component">
+        	<metadata>
+	        	<dc:type>scriptable-component</dc:type>
+				<dc:title>PubCoder Quiz 1</dc:title>
+				<dc:creator>PubCoderQuiz</dc:creator>
+				<dc:description>A Scriptable Component</dc:description>
+				<dc:publisher>PubCoder Srl</dc:publisher>
+				<dc:date>2015-06-24</dc:date>
+				<dc:rights>© 2015 PubCoder Srl</dc:rights>
+				<dc:language>en</dc:language>
+			    <meta property="epubsc:version">1.0</meta>
+				<meta property="epubsc:scripted">true</meta>
+				<meta property="epubsc:local-storage-required">false</meta>
+				<meta property="epubsc:network-access-required">false</meta>
+				<meta property="epubsc:params-required">false</meta>
+				<meta property="epubsc:viewport">width=407, height=272</meta>
+				<meta name="generator" content="PubCoder for Scriptable Components"/>
+			</metadata>
+
+			<collection role="manifest">
+				<link href="components/PubCoder/Quiz1/styles.css">
+				<link href="components/PubCoder/Quiz1/actions.js"/>
+				<link href="components/PubCoder/shared/images/scquiz-check-off.png"/>
+				<link href="components/PubCoder/shared/images/scquiz-check-on.png"/>
+				<link href="components/PubCoder/shared/images/scquiz-check-right.png"/>
+				<link href="components/PubCoder/shared/images/scquiz-check-wrong.png"/>
+				<link href="components/PubCoder/shared/images/scquiz-radio-off.png"/>
+				<link href="components/PubCoder/shared/images/scquiz-radio-on.png"/>
+				<link href="components/PubCoder/shared/images/scquiz-radio-right.png"/>
+				<link href="components/PubCoder/shared/images/scquiz-radio-wrong.png"/>
+				<link href="components/PubCoder/shared/images/scquiz-next.png"/>
+				<link href="components/PubCoder/shared/images/scquiz-prev.png"/>
+				<link href="components/PubCoder/shared/images/scquiz-radio-missed.png"/>
+				<link href="components/PubCoder/shared/images/scquiz-check-missed.png"/>
+				<link href="components/PubCoder/shared/fonts/Cabin-Sketch-700.ttf"/>
+				<link href="components/PubCoder/shared/fonts/Cabin-Sketch-regular.ttf"/>
+				<link href="components/PubCoder/shared/fonts/Calligraffitti-regular.ttf"/>
+				<link href="components/PubCoder/shared/fonts/Droid-Sans-700.ttf"/>
+				<link href="components/PubCoder/shared/fonts/Droid-Sans-regular.ttf"/>
+				<link href="components/PubCoder/shared/css/general.styles.css"/>
+				<link href="components/PubCoder/shared/js/jquery.js" />
+				<link href="components/PubCoder/shared/js/jquery.jgestures.js" />
+		       	<link href="components/PubCoder/shared/js/jquery.ui.js" />
+				<link href="components/PubCoder/shared/js/jquery.touchpunch.js" />
+				<link href="components/PubCoder/shared/js/jquery.scrollTo-min.js" />
+				<link href="components/PubCoder/shared/js/jquery.easie-min.js" />
+				<link href='components/PubCoder/shared/js/jquery.move.js' />
+				<link href='components/PubCoder/shared/js/jquery.SCswipe.js' />
+				<link href='components/PubCoder/shared/js/jquery-css-transform.js' />
+				<link href='components/PubCoder/shared/js/jquery-animate-css-rotate-scale.js'/>
+				<link href='components/PubCoder/shared/js/general.functions.js'/>
+				<link href='components/PubCoder/shared/js/shake.js'/>
+				<link href='components/PubCoder/shared/js/idangerous.swiper-2.3.js'/>
+				<link href='components/PubCoder/shared/js/quiz-multi.js'/>
+			</collection>
+			<link href="components/PubCoder/Quiz1/page.xhtml"/>
+		</collection>
 	<!-- embed Quiz1 Scriptable Component: END  -->
 	<!-- embed Quiz2 Scriptable Component  -->
-	<!-- <collection role="scriptable-component"> -->
-        	<!-- <metadata> -->
-	        	<!-- <dc:type>scriptable-component</dc:type> -->
-				<!-- <dc:title>PubCoder Quiz 2</dc:title> -->
-				<!-- <dc:creator>PubCoderQuiz</dc:creator> -->
-				<!-- <dc:description>A Scriptable Component</dc:description> -->
-				<!-- <dc:publisher>PubCoder Srl</dc:publisher> -->
-				<!-- <dc:date>2015-06-24</dc:date> -->
-				<!-- <dc:rights>© 2015 PubCoder Srl</dc:rights> -->
-				<!-- <dc:language>en</dc:language> -->
-			    <!-- <meta property="epubsc:version">1.0</meta> -->
-				<!-- <meta property="epubsc:scripted">true</meta> -->
-				<!-- <meta property="epubsc:local-storage-required">false</meta> -->
-				<!-- <meta property="epubsc:network-access-required">false</meta> -->
-				<!-- <meta property="epubsc:params-required">false</meta> -->
-				<!-- <meta property="epubsc:viewport">width=407, height=272</meta> -->
-				<!-- <meta name="generator" content="PubCoder for Scriptable Components"/> -->
-			<!-- </metadata> -->
-<!--  -->
-			<!-- <collection role="manifest"> -->
-				<!-- <link href="components/PubCoder/Quiz2/styles.css"> -->
-				<!-- <link href="components/PubCoder/Quiz2/actions.js"/> -->
-				<!-- <link href="components/PubCoder/shared/images/scquiz-check-off.png"/> -->
-				<!-- <link href="components/PubCoder/shared/images/scquiz-check-on.png"/> -->
-				<!-- <link href="components/PubCoder/shared/images/scquiz-check-right.png"/> -->
-				<!-- <link href="components/PubCoder/shared/images/scquiz-check-wrong.png"/> -->
-				<!-- <link href="components/PubCoder/shared/images/scquiz-radio-off.png"/> -->
-				<!-- <link href="components/PubCoder/shared/images/scquiz-radio-on.png"/> -->
-				<!-- <link href="components/PubCoder/shared/images/scquiz-radio-right.png"/> -->
-				<!-- <link href="components/PubCoder/shared/images/scquiz-radio-wrong.png"/> -->
-				<!-- <link href="components/PubCoder/shared/images/scquiz-next.png"/> -->
-				<!-- <link href="components/PubCoder/shared/images/scquiz-prev.png"/> -->
-				<!-- <link href="components/PubCoder/shared/images/scquiz-radio-missed.png"/> -->
-				<!-- <link href="components/PubCoder/shared/images/scquiz-check-missed.png"/> -->
-				<!-- <link href="components/PubCoder/shared/fonts/Cabin-Sketch-700.ttf"/> -->
-				<!-- <link href="components/PubCoder/shared/fonts/Cabin-Sketch-regular.ttf"/> -->
-				<!-- <link href="components/PubCoder/shared/fonts/Calligraffitti-regular.ttf"/> -->
-				<!-- <link href="components/PubCoder/shared/fonts/Droid-Sans-700.ttf"/> -->
-				<!-- <link href="components/PubCoder/shared/fonts/Droid-Sans-regular.ttf"/> -->
-				<!-- <link href="components/PubCoder/shared/css/general.styles.css"/> -->
-				<!-- <link href="components/PubCoder/shared/js/jquery.js" /> -->
-				<!-- <link href="components/PubCoder/shared/js/jquery.jgestures.js" /> -->
-		       	<!-- <link href="components/PubCoder/shared/js/jquery.ui.js" /> -->
-				<!-- <link href="components/PubCoder/shared/js/jquery.touchpunch.js" /> -->
-				<!-- <link href="components/PubCoder/shared/js/jquery.scrollTo-min.js" /> -->
-				<!-- <link href="components/PubCoder/shared/js/jquery.easie-min.js" /> -->
-				<!-- <link href='components/PubCoder/shared/js/jquery.move.js' /> -->
-				<!-- <link href='components/PubCoder/shared/js/jquery.SCswipe.js' /> -->
-				<!-- <link href='components/PubCoder/shared/js/jquery-css-transform.js' /> -->
-				<!-- <link href='components/PubCoder/shared/js/jquery-animate-css-rotate-scale.js'/> -->
-				<!-- <link href='components/PubCoder/shared/js/general.functions.js'/> -->
-				<!-- <link href='components/PubCoder/shared/js/shake.js'/> -->
-				<!-- <link href='components/PubCoder/shared/js/idangerous.swiper-2.3.js'/> -->
-				<!-- <link href='components/PubCoder/shared/js/quiz-multi.js'/> -->
-			<!-- </collection> -->
-			<!-- <link href="components/PubCoder/Quiz2/page.xhtml"/> -->
-		<!-- </collection> -->
+	<collection role="scriptable-component">
+        	<metadata>
+	        	<dc:type>scriptable-component</dc:type>
+				<dc:title>PubCoder Quiz 2</dc:title>
+				<dc:creator>PubCoderQuiz</dc:creator>
+				<dc:description>A Scriptable Component</dc:description>
+				<dc:publisher>PubCoder Srl</dc:publisher>
+				<dc:date>2015-06-24</dc:date>
+				<dc:rights>© 2015 PubCoder Srl</dc:rights>
+				<dc:language>en</dc:language>
+			    <meta property="epubsc:version">1.0</meta>
+				<meta property="epubsc:scripted">true</meta>
+				<meta property="epubsc:local-storage-required">false</meta>
+				<meta property="epubsc:network-access-required">false</meta>
+				<meta property="epubsc:params-required">false</meta>
+				<meta property="epubsc:viewport">width=407, height=272</meta>
+				<meta name="generator" content="PubCoder for Scriptable Components"/>
+			</metadata>
+
+			<collection role="manifest">
+				<link href="components/PubCoder/Quiz2/styles.css">
+				<link href="components/PubCoder/Quiz2/actions.js"/>
+				<link href="components/PubCoder/shared/images/scquiz-check-off.png"/>
+				<link href="components/PubCoder/shared/images/scquiz-check-on.png"/>
+				<link href="components/PubCoder/shared/images/scquiz-check-right.png"/>
+				<link href="components/PubCoder/shared/images/scquiz-check-wrong.png"/>
+				<link href="components/PubCoder/shared/images/scquiz-radio-off.png"/>
+				<link href="components/PubCoder/shared/images/scquiz-radio-on.png"/>
+				<link href="components/PubCoder/shared/images/scquiz-radio-right.png"/>
+				<link href="components/PubCoder/shared/images/scquiz-radio-wrong.png"/>
+				<link href="components/PubCoder/shared/images/scquiz-next.png"/>
+				<link href="components/PubCoder/shared/images/scquiz-prev.png"/>
+				<link href="components/PubCoder/shared/images/scquiz-radio-missed.png"/>
+				<link href="components/PubCoder/shared/images/scquiz-check-missed.png"/>
+				<link href="components/PubCoder/shared/fonts/Cabin-Sketch-700.ttf"/>
+				<link href="components/PubCoder/shared/fonts/Cabin-Sketch-regular.ttf"/>
+				<link href="components/PubCoder/shared/fonts/Calligraffitti-regular.ttf"/>
+				<link href="components/PubCoder/shared/fonts/Droid-Sans-700.ttf"/>
+				<link href="components/PubCoder/shared/fonts/Droid-Sans-regular.ttf"/>
+				<link href="components/PubCoder/shared/css/general.styles.css"/>
+				<link href="components/PubCoder/shared/js/jquery.js" />
+				<link href="components/PubCoder/shared/js/jquery.jgestures.js" />
+		       	<link href="components/PubCoder/shared/js/jquery.ui.js" />
+				<link href="components/PubCoder/shared/js/jquery.touchpunch.js" />
+				<link href="components/PubCoder/shared/js/jquery.scrollTo-min.js" />
+				<link href="components/PubCoder/shared/js/jquery.easie-min.js" />
+				<link href='components/PubCoder/shared/js/jquery.move.js' />
+				<link href='components/PubCoder/shared/js/jquery.SCswipe.js' />
+				<link href='components/PubCoder/shared/js/jquery-css-transform.js' />
+				<link href='components/PubCoder/shared/js/jquery-animate-css-rotate-scale.js'/>
+				<link href='components/PubCoder/shared/js/general.functions.js'/>
+				<link href='components/PubCoder/shared/js/shake.js'/>
+				<link href='components/PubCoder/shared/js/idangerous.swiper-2.3.js'/>
+				<link href='components/PubCoder/shared/js/quiz-multi.js'/>
+			</collection>
+			<link href="components/PubCoder/Quiz2/page.xhtml"/>
+		</collection>
 	<!-- embed PubCoder Quiz2 Scriptable Component: END  -->
 	<!-- embed Quiz3 Scriptable Component  -->
-	<!-- <collection role="scriptable-component"> -->
-        	<!-- <metadata> -->
-	        	<!-- <dc:type>scriptable-component</dc:type> -->
-				<!-- <dc:title>PubCoder Quiz 3</dc:title> -->
-				<!-- <dc:creator>PubCoderQuiz</dc:creator> -->
-				<!-- <dc:description>A Scriptable Component</dc:description> -->
-				<!-- <dc:publisher>PubCoder Srl</dc:publisher> -->
-				<!-- <dc:date>2015-06-24</dc:date> -->
-				<!-- <dc:rights>© 2015 PubCoder Srl</dc:rights> -->
-				<!-- <dc:language>en</dc:language> -->
-			    <!-- <meta property="epubsc:version">1.0</meta> -->
-				<!-- <meta property="epubsc:scripted">true</meta> -->
-				<!-- <meta property="epubsc:local-storage-required">false</meta> -->
-				<!-- <meta property="epubsc:network-access-required">false</meta> -->
-				<!-- <meta property="epubsc:params-required">false</meta> -->
-				<!-- <meta property="epubsc:viewport">width=407, height=272</meta> -->
-				<!-- <meta name="generator" content="PubCoder for Scriptable Components"/> -->
-			<!-- </metadata> -->
-<!--  -->
-			<!-- <collection role="manifest"> -->
-				<!-- <link href="components/PubCoder/Quiz2/styles.css"> -->
-				<!-- <link href="components/PubCoder/Quiz2/actions.js"/> -->
-				<!-- <link href="components/PubCoder/shared/images/scquiz-check-off.png"/> -->
-				<!-- <link href="components/PubCoder/shared/images/scquiz-check-on.png"/> -->
-				<!-- <link href="components/PubCoder/shared/images/scquiz-check-right.png"/> -->
-				<!-- <link href="components/PubCoder/shared/images/scquiz-check-wrong.png"/> -->
-				<!-- <link href="components/PubCoder/shared/images/scquiz-radio-off.png"/> -->
-				<!-- <link href="components/PubCoder/shared/images/scquiz-radio-on.png"/> -->
-				<!-- <link href="components/PubCoder/shared/images/scquiz-radio-right.png"/> -->
-				<!-- <link href="components/PubCoder/shared/images/scquiz-radio-wrong.png"/> -->
-				<!-- <link href="components/PubCoder/shared/images/scquiz-next.png"/> -->
-				<!-- <link href="components/PubCoder/shared/images/scquiz-prev.png"/> -->
-				<!-- <link href="components/PubCoder/shared/images/scquiz-radio-missed.png"/> -->
-				<!-- <link href="components/PubCoder/shared/images/scquiz-check-missed.png"/> -->
-				<!-- <link href="components/PubCoder/shared/fonts/Cabin-Sketch-700.ttf"/> -->
-				<!-- <link href="components/PubCoder/shared/fonts/Cabin-Sketch-regular.ttf"/> -->
-				<!-- <link href="components/PubCoder/shared/fonts/Calligraffitti-regular.ttf"/> -->
-				<!-- <link href="components/PubCoder/shared/fonts/Droid-Sans-700.ttf"/> -->
-				<!-- <link href="components/PubCoder/shared/fonts/Droid-Sans-regular.ttf"/> -->
-				<!-- <link href="components/PubCoder/shared/css/general.styles.css"/> -->
-				<!-- <link href="components/PubCoder/shared/js/jquery.js" /> -->
-				<!-- <link href="components/PubCoder/shared/js/jquery.jgestures.js" /> -->
-		       	<!-- <link href="components/PubCoder/shared/js/jquery.ui.js" /> -->
-				<!-- <link href="components/PubCoder/shared/js/jquery.touchpunch.js" /> -->
-				<!-- <link href="components/PubCoder/shared/js/jquery.scrollTo-min.js" /> -->
-				<!-- <link href="components/PubCoder/shared/js/jquery.easie-min.js" /> -->
-				<!-- <link href='components/PubCoder/shared/js/jquery.move.js' /> -->
-				<!-- <link href='components/PubCoder/shared/js/jquery.SCswipe.js' /> -->
-				<!-- <link href='components/PubCoder/shared/js/jquery-css-transform.js' /> -->
-				<!-- <link href='components/PubCoder/shared/js/jquery-animate-css-rotate-scale.js'/> -->
-				<!-- <link href='components/PubCoder/shared/js/general.functions.js'/> -->
-				<!-- <link href='components/PubCoder/shared/js/shake.js'/> -->
-				<!-- <link href='components/PubCoder/shared/js/idangerous.swiper-2.3.js'/> -->
-				<!-- <link href='components/PubCoder/shared/js/quiz-multi.js'/> -->
-			<!-- </collection> -->
-			<!-- <link href="components/PubCoder/Quiz3/page.xhtml"/> -->
-		<!-- </collection> -->
+	<collection role="scriptable-component">
+        	<metadata>
+	        	<dc:type>scriptable-component</dc:type>
+				<dc:title>PubCoder Quiz 3</dc:title>
+				<dc:creator>PubCoderQuiz</dc:creator>
+				<dc:description>A Scriptable Component</dc:description>
+				<dc:publisher>PubCoder Srl</dc:publisher>
+				<dc:date>2015-06-24</dc:date>
+				<dc:rights>© 2015 PubCoder Srl</dc:rights>
+				<dc:language>en</dc:language>
+			    <meta property="epubsc:version">1.0</meta>
+				<meta property="epubsc:scripted">true</meta>
+				<meta property="epubsc:local-storage-required">false</meta>
+				<meta property="epubsc:network-access-required">false</meta>
+				<meta property="epubsc:params-required">false</meta>
+				<meta property="epubsc:viewport">width=407, height=272</meta>
+				<meta name="generator" content="PubCoder for Scriptable Components"/>
+			</metadata>
+
+			<collection role="manifest">
+				<link href="components/PubCoder/Quiz2/styles.css">
+				<link href="components/PubCoder/Quiz2/actions.js"/>
+				<link href="components/PubCoder/shared/images/scquiz-check-off.png"/>
+				<link href="components/PubCoder/shared/images/scquiz-check-on.png"/>
+				<link href="components/PubCoder/shared/images/scquiz-check-right.png"/>
+				<link href="components/PubCoder/shared/images/scquiz-check-wrong.png"/>
+				<link href="components/PubCoder/shared/images/scquiz-radio-off.png"/>
+				<link href="components/PubCoder/shared/images/scquiz-radio-on.png"/>
+				<link href="components/PubCoder/shared/images/scquiz-radio-right.png"/>
+				<link href="components/PubCoder/shared/images/scquiz-radio-wrong.png"/>
+				<link href="components/PubCoder/shared/images/scquiz-next.png"/>
+				<link href="components/PubCoder/shared/images/scquiz-prev.png"/>
+				<link href="components/PubCoder/shared/images/scquiz-radio-missed.png"/>
+				<link href="components/PubCoder/shared/images/scquiz-check-missed.png"/>
+				<link href="components/PubCoder/shared/fonts/Cabin-Sketch-700.ttf"/>
+				<link href="components/PubCoder/shared/fonts/Cabin-Sketch-regular.ttf"/>
+				<link href="components/PubCoder/shared/fonts/Calligraffitti-regular.ttf"/>
+				<link href="components/PubCoder/shared/fonts/Droid-Sans-700.ttf"/>
+				<link href="components/PubCoder/shared/fonts/Droid-Sans-regular.ttf"/>
+				<link href="components/PubCoder/shared/css/general.styles.css"/>
+				<link href="components/PubCoder/shared/js/jquery.js" />
+				<link href="components/PubCoder/shared/js/jquery.jgestures.js" />
+		       	<link href="components/PubCoder/shared/js/jquery.ui.js" />
+				<link href="components/PubCoder/shared/js/jquery.touchpunch.js" />
+				<link href="components/PubCoder/shared/js/jquery.scrollTo-min.js" />
+				<link href="components/PubCoder/shared/js/jquery.easie-min.js" />
+				<link href='components/PubCoder/shared/js/jquery.move.js' />
+				<link href='components/PubCoder/shared/js/jquery.SCswipe.js' />
+				<link href='components/PubCoder/shared/js/jquery-css-transform.js' />
+				<link href='components/PubCoder/shared/js/jquery-animate-css-rotate-scale.js'/>
+				<link href='components/PubCoder/shared/js/general.functions.js'/>
+				<link href='components/PubCoder/shared/js/shake.js'/>
+				<link href='components/PubCoder/shared/js/idangerous.swiper-2.3.js'/>
+				<link href='components/PubCoder/shared/js/quiz-multi.js'/>
+			</collection>
+			<link href="components/PubCoder/Quiz3/page.xhtml"/>
+		</collection>
 	<!-- embed PubCoder Quiz2 Scriptable Component: END  -->
 	<!-- embed QuizResult Scriptable Component  -->
-	<!-- <collection role="scriptable-component"> -->
-        	<!-- <metadata> -->
-	        	<!-- <dc:type>scriptable-component</dc:type> -->
-				<!-- <dc:title>PubCoder Quiz Result</dc:title> -->
-				<!-- <dc:creator>PubCoderQuizResult</dc:creator> -->
-				<!-- <dc:description>A Scriptable Component</dc:description> -->
-				<!-- <dc:publisher>PubCoder Srl</dc:publisher> -->
-				<!-- <dc:date>2015-06-24</dc:date> -->
-				<!-- <dc:rights>© 2015 PubCoder Srl</dc:rights> -->
-				<!-- <dc:language>en</dc:language> -->
-			    <!-- <meta property="epubsc:version">1.0</meta> -->
-				<!-- <meta property="epubsc:scripted">true</meta> -->
-				<!-- <meta property="epubsc:local-storage-required">false</meta> -->
-				<!-- <meta property="epubsc:network-access-required">false</meta> -->
-				<!-- <meta property="epubsc:params-required">false</meta> -->
-				<!-- <meta property="epubsc:viewport">width=407, height=272</meta> -->
-				<!-- <meta name="generator" content="PubCoder for Scriptable Components"/> -->
-			<!-- </metadata> -->
-<!--  -->
-			<!-- <collection role="manifest"> -->
-				<!-- <link href="components/PubCoder/QuizResult/styles.css"> -->
-				<!-- <link href="components/PubCoder/QuizResult/actions.js"/> -->
-				<!-- <link href="components/PubCoder/shared/images/scquiz-check-off.png"/> -->
-				<!-- <link href="components/PubCoder/shared/images/scquiz-check-on.png"/> -->
-				<!-- <link href="components/PubCoder/shared/images/scquiz-check-right.png"/> -->
-				<!-- <link href="components/PubCoder/shared/images/scquiz-check-wrong.png"/> -->
-				<!-- <link href="components/PubCoder/shared/images/scquiz-radio-off.png"/> -->
-				<!-- <link href="components/PubCoder/shared/images/scquiz-radio-on.png"/> -->
-				<!-- <link href="components/PubCoder/shared/images/scquiz-radio-right.png"/> -->
-				<!-- <link href="components/PubCoder/shared/images/scquiz-radio-wrong.png"/> -->
-				<!-- <link href="components/PubCoder/shared/images/scquiz-next.png"/> -->
-				<!-- <link href="components/PubCoder/shared/images/scquiz-prev.png"/> -->
-				<!-- <link href="components/PubCoder/shared/images/scquiz-radio-missed.png"/> -->
-				<!-- <link href="components/PubCoder/shared/images/scquiz-check-missed.png"/> -->
-				<!-- <link href="components/PubCoder/shared/fonts/Cabin-Sketch-700.ttf"/> -->
-				<!-- <link href="components/PubCoder/shared/fonts/Cabin-Sketch-regular.ttf"/> -->
-				<!-- <link href="components/PubCoder/shared/fonts/Calligraffitti-regular.ttf"/> -->
-				<!-- <link href="components/PubCoder/shared/fonts/Droid-Sans-700.ttf"/> -->
-				<!-- <link href="components/PubCoder/shared/fonts/Droid-Sans-regular.ttf"/> -->
-				<!-- <link href="components/PubCoder/shared/css/general.styles.css"/> -->
-				<!-- <link href="components/PubCoder/shared/js/jquery.js" /> -->
-				<!-- <link href='components/PubCoder/shared/js/general.functions.js'/> -->
-			<!-- </collection> -->
-			<!-- <link href="components/PubCoder/QuizResult/page.xhtml"/> -->
-		<!-- </collection> -->
+	<collection role="scriptable-component">
+        	<metadata>
+	        	<dc:type>scriptable-component</dc:type>
+				<dc:title>PubCoder Quiz Result</dc:title>
+				<dc:creator>PubCoderQuizResult</dc:creator>
+				<dc:description>A Scriptable Component</dc:description>
+				<dc:publisher>PubCoder Srl</dc:publisher>
+				<dc:date>2015-06-24</dc:date>
+				<dc:rights>© 2015 PubCoder Srl</dc:rights>
+				<dc:language>en</dc:language>
+			    <meta property="epubsc:version">1.0</meta>
+				<meta property="epubsc:scripted">true</meta>
+				<meta property="epubsc:local-storage-required">false</meta>
+				<meta property="epubsc:network-access-required">false</meta>
+				<meta property="epubsc:params-required">false</meta>
+				<meta property="epubsc:viewport">width=407, height=272</meta>
+				<meta name="generator" content="PubCoder for Scriptable Components"/>
+			</metadata>
+
+			<collection role="manifest">
+				<link href="components/PubCoder/QuizResult/styles.css">
+				<link href="components/PubCoder/QuizResult/actions.js"/>
+				<link href="components/PubCoder/shared/images/scquiz-check-off.png"/>
+				<link href="components/PubCoder/shared/images/scquiz-check-on.png"/>
+				<link href="components/PubCoder/shared/images/scquiz-check-right.png"/>
+				<link href="components/PubCoder/shared/images/scquiz-check-wrong.png"/>
+				<link href="components/PubCoder/shared/images/scquiz-radio-off.png"/>
+				<link href="components/PubCoder/shared/images/scquiz-radio-on.png"/>
+				<link href="components/PubCoder/shared/images/scquiz-radio-right.png"/>
+				<link href="components/PubCoder/shared/images/scquiz-radio-wrong.png"/>
+				<link href="components/PubCoder/shared/images/scquiz-next.png"/>
+				<link href="components/PubCoder/shared/images/scquiz-prev.png"/>
+				<link href="components/PubCoder/shared/images/scquiz-radio-missed.png"/>
+				<link href="components/PubCoder/shared/images/scquiz-check-missed.png"/>
+				<link href="components/PubCoder/shared/fonts/Cabin-Sketch-700.ttf"/>
+				<link href="components/PubCoder/shared/fonts/Cabin-Sketch-regular.ttf"/>
+				<link href="components/PubCoder/shared/fonts/Calligraffitti-regular.ttf"/>
+				<link href="components/PubCoder/shared/fonts/Droid-Sans-700.ttf"/>
+				<link href="components/PubCoder/shared/fonts/Droid-Sans-regular.ttf"/>
+				<link href="components/PubCoder/shared/css/general.styles.css"/>
+				<link href="components/PubCoder/shared/js/jquery.js" />
+				<link href='components/PubCoder/shared/js/general.functions.js'/>
+			</collection>
+			<link href="components/PubCoder/QuizResult/page.xhtml"/>
+		</collection>
 	<!--embed PubCoder Quiz2 Scriptable Component: END -->
 	<spine page-progression-direction="ltr">
 		<itemref idref="page1" />

@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
-<package xmlns="http://www.idpf.org/2007/opf" unique-identifier="BookID" version="3.0" prefix="rendition: http://www.idpf.org/vocab/rendition/#">
-  <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+<package xmlns="http://www.idpf.org/2007/opf" unique-identifier="BookID" version="3.0">
+  <metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 <!-- METADATA -->
 	<meta name="generator" content="PubCoder for Mac OS X"/>
 	<meta property="rendition:layout">pre-paginated</meta>	
@@ -44,56 +44,62 @@
 <!--page 4: end-->
 
 				<!--PubCoderImageGallery-->
-				
-		<item id="37a61393-55f7-450a-9d94-a07d0ef5421f" href="components/PubCoderImageGallery/css/general.styles.css" media-type="text/css"/>
+		<item id="ece6163f-5314-44c0-a701-de625e2638a7" href="components/PubCoderImageGallery/css/general.styles.css" media-type="text/css"/>
 		<item id="b8135c47-124e-4839-9c47-27a6116d2f57" href="components/PubCoderImageGallery/images/scphotogallery-fullscreen-close.png" media-type="image/png"/>
-		<item id="2613fda6-c6b8-4506-9e4d-9827db9b44e2" href="components/PubCoderImageGallery/images/scphotogallery-fullscreen-open.png" media-type="image/png"/>
+		<item id="e320a0c8-c82c-4ade-9e0d-36fbb5dd9f97" href="components/PubCoderImageGallery/images/scphotogallery-fullscreen-open.png" media-type="image/png"/>
 		<item id="d6865338-7d28-4afd-9c8c-14f320a49295" href="components/PubCoderImageGallery/images/scphotogallery-index-close.png" media-type="image/png"/>
-		<item id="6ff3eec9-5246-4992-b313-06b9c37f8bce" href="components/PubCoderImageGallery/images/scphotogallery-index-open.png" media-type="image/png"/>
+		<item id="fdf99c79-497e-494c-9df6-0e19b8d8c02f" href="components/PubCoderImageGallery/images/scphotogallery-index-open.png" media-type="image/png"/>
 		<item id="bbd70535-fbf3-4a02-addb-3d756557b56e" href="components/PubCoderImageGallery/images/scphotogallery-next.png" media-type="image/png"/>
-		<item id="892b8985-317c-4a07-b54f-800ded65e140" href="components/PubCoderImageGallery/images/scphotogallery-prev.png" media-type="image/png"/>
-		<item id="122da27d-962d-4c2b-a123-44b4a2765bf9" href="components/PubCoderImageGallery/images/scphotogallery-thumb-next.png" media-type="image/png"/>
-		<item id="4045cae1-cb4a-4d9a-8a8f-8e1fb3049012" href="components/PubCoderImageGallery/images/scphotogallery-thumb-prev.png" media-type="image/png"/>
+		<item id="c1726f32-996c-40c1-93e0-d57202dc6ca7" href="components/PubCoderImageGallery/images/scphotogallery-prev.png" media-type="image/png"/>
+		<item id="e1f41154-61ec-48c7-8f8e-eb83838efb2d" href="components/PubCoderImageGallery/images/scphotogallery-thumb-next.png" media-type="image/png"/>
+		<item id="c6c2c0b9-de1f-4d86-b1a9-9c9b6f01e709" href="components/PubCoderImageGallery/images/scphotogallery-thumb-prev.png" media-type="image/png"/>
 		<!-- FONTS -->		
-		<item id="8683f32d-7ec1-4063-af09-3a61dac25e3d" href="components/PubCoderImageGallery/fonts/Droid-Sans-700.ttf" media-type="application/x-font-truetype"/>
+		<item id="b98962ae-1605-44c1-806c-c5059fb0914f" href="components/PubCoderImageGallery/fonts/Droid-Sans-700.ttf" media-type="application/x-font-truetype"/>
 		<!-- JAVASCRIPT -->
-		<item id="33144947-e52d-4e97-8cac-09a2d17dc7d7" href='components/PubCoderImageGallery/js/idangerous.swiper-2.3.js' media-type="text/javascript" />
-		<item id="83aa604f-d8cf-456b-a7d8-25597da644e6" href='components/PubCoderImageGallery/js/photogallery.js' media-type="text/javascript" />
+		<item id="f25b9204-2505-48c1-bda3-68329e49674c" href='components/PubCoderImageGallery/js/idangerous.swiper-2.3.js' media-type="text/javascript" />
+		<item id="ab2acd3d-84c9-41ac-b1e2-673a9a34caaa" href='components/PubCoderImageGallery/js/photogallery.js' media-type="text/javascript" />
 		<!-- PAGES ASSETS -->
 		<!--page-->
 		<item id="e9cbccce-ea86-4c2f-b595-2c6a1f9eedd3" href="components/PubCoderImageGallery/assets/1/actions.js" media-type="text/javascript" />
-		<item id="052f7a4b-bc43-4dc9-866f-047aeec98a67" href="components/PubCoderImageGallery/assets/1/styles.css" media-type="text/css"/>
+		<item id="d88f4d7a-7481-45e6-9ec4-7f78426c9de4" href="components/PubCoderImageGallery/assets/1/styles.css" media-type="text/css"/>
 		<item id="e3408e88-68bb-4987-8a31-5ce5660b71c8" href="components/PubCoderImageGallery/assets/1/page.xhtml" media-type="application/xhtml+xml" properties="scripted"/>
 		<item id="ce26069f-5fef-4f80-9f90-df840a505323" href="components/PubCoderImageGallery/assets/images/obj7086_image.jpeg" media-type="image/jpeg"/>
-		<item id="12dcef18-aa47-4ea9-9d7f-c04c54a22fa3" href="components/PubCoderImageGallery/assets/images/IMG_2505.jpg" media-type="image/jpeg"/>
+		<item id="d8cbd92f-0e9e-4fd9-bbc2-a3463fd8dd37" href="components/PubCoderImageGallery/assets/images/IMG_2505.jpg" media-type="image/jpeg"/>
 		<item id="b8898783-db61-46dd-901a-3d07b9025b8d" href="components/PubCoderImageGallery/assets/images/IMG_0595.JPG" media-type="image/jpeg"/>
-		<item id="0c5b9e94-a849-4dbf-9e88-85805405629e" href="components/PubCoderImageGallery/assets/images/IMG_0580.JPG" media-type="image/jpeg"/>
-		<item id="29600a48-424e-46f1-b26e-5df4700d26f9" href="components/PubCoderImageGallery/assets/images/IMG_0464.JPG" media-type="image/jpeg"/>
+		<item id="b9aa1a70-956d-4fad-a4cc-b8fb0665510a" href="components/PubCoderImageGallery/assets/images/IMG_0580.JPG" media-type="image/jpeg"/>
+		<item id="f17882cf-1e1a-4943-b745-0083c0448d5b" href="components/PubCoderImageGallery/assets/images/IMG_0464.JPG" media-type="image/jpeg"/>
 		<item id="c42864fe-5253-461b-a000-39a2e8650448" href="components/PubCoderImageGallery/assets/images/IMG_0474.JPG" media-type="image/jpeg"/>
-		<item id="83a93291-615e-40fd-8149-9ba2de651e0a" href="components/PubCoderImageGallery/assets/images/IMG_0477.JPG" media-type="image/jpeg"/>
-		<item id="956231cd-e644-46e9-b51a-d282e5555c0d" href="components/PubCoderImageGallery/assets/images/IMG_0505.JPG" media-type="image/jpeg"/>
-		<item id="879ab6e6-d68a-4815-8d33-30e5341d148e" href="components/PubCoderImageGallery/assets/images/IMG_0516.JPG" media-type="image/jpeg"/>
+		<item id="c51696ac-26b0-427a-9412-1327493b0957" href="components/PubCoderImageGallery/assets/images/IMG_0477.JPG" media-type="image/jpeg"/>
+		<item id="acecdae7-4a77-4d02-a052-8434f175fe2d" href="components/PubCoderImageGallery/assets/images/IMG_0505.JPG" media-type="image/jpeg"/>
+		<item id="ea2a25ce-4632-4732-bf57-9cac099a36fd" href="components/PubCoderImageGallery/assets/images/IMG_0516.JPG" media-type="image/jpeg"/>
 		<item id="d66b91d3-c8c0-433a-ae05-4412afa31644" href="components/PubCoderImageGallery/assets/images/IMG_0546.JPG" media-type="image/jpeg"/>
+
 		<!--PubCoderColoring Game-->
-		<item id="e5e353aa-ecd9-4925-9f5e-0d0d601b8f30" href="components/PubCoderColoringGame/css/general.styles.css" media-type="text/css"/>
-		<item id="ef4b650b-c36d-481e-8018-23f2a3e6e4b7" href="components/PubCoderColoringGame/images/scdrawer-trash.png" media-type="image/png"/>
-		<!-- JAVASCRIPT -->
-		<item id="f1acbac9-f493-41f4-829e-5e3213ae7ec4" href='components/PubCoderColoringGame/js/drawer.js' media-type="text/javascript" />
-		<!-- PAGES ASSETS -->
-		<item id="7f291314-3e15-414e-ac26-c1b86b8b143c" href="components/PubCoderColoringGame/assets/1/styles.css" media-type="text/css"/>
-		<item id="a4aae7e9-61a5-47ad-af90-22501f39925c" href="components/PubCoderColoringGame/assets/1/actions.js" media-type="text/javascript" />
-		<item id="b46ebd93-d652-4392-9859-612e1c67336e" href="components/PubCoderColoringGame/assets/1/page.xhtml" media-type="application/xhtml+xml" properties="scripted"/>
-		<item id="3e90e738-2878-4aa4-8d90-8146fb086d04" href="components/PubCoderColoringGame/assets/images/obj5644_image.jpeg" media-type="image/jpeg"/>
-		<item id="7c86594c-515e-46ab-8ff3-cc68d11525dd" href="components/PubCoderColoringGame/assets/images/coloring1.png" media-type="image/png"/>
-		<item id="54adb349-a6eb-4707-bd53-2f62b707c80b" href="components/PubCoderColoringGame/assets/images/coloring2.png" media-type="image/png"/>
-		<item id="84d1e04e-7581-4d12-81df-1e59350dd11b" href="components/PubCoderColoringGame/assets/images/coloring3.png" media-type="image/png"/>
+		<!-- GENERAL ASSETS  -->
+		<item id="d3323eca-2026-11e5-b5f7-727283247c7f" href="components/PubCoderColoringGame/css/general.styles.css" media-type="text/css"/>
+		<item id="d332428a-2026-11e5-b5f7-727283247c7f" href="components/PubCoderColoringGame/images/scdrawer-trash.png" media-type="image/png"/>
+		
+<!-- JAVASCRIPT -->
+		<item id="d33255fe-2026-11e5-b5f7-727283247c7f" href='components/PubCoderColoringGame/js/drawer.js' media-type="text/javascript" />
+		
+<!-- PAGES ASSETS -->
+		<!--page 1-->
+		<item id="d33247bc-2026-11e5-b5f7-727283247c7f" href="components/PubCoderColoringGame/assets/1/styles.css" media-type="text/css"/>
+		<item id="d33249b0-2026-11e5-b5f7-727283247c7f" href="components/PubCoderColoringGame/assets/1/actions.js" media-type="text/javascript" />
+		<item id="d3324bf4-2026-11e5-b5f7-727283247c7f" href="components/PubCoderColoringGame/assets/1/page.xhtml" media-type="application/xhtml+xml" properties="scripted"/>
+		<item id="d3324db6-2026-11e5-b5f7-727283247c7f" href="components/PubCoderColoringGame/assets/images/obj5644_image.jpeg" media-type="image/jpeg"/>
+		<item id="d3324f50-2026-11e5-b5f7-727283247c7f" href="components/PubCoderColoringGame/assets/images/coloring1.png" media-type="image/png"/>
+		<item id="d33250e0-2026-11e5-b5f7-727283247c7f" href="components/PubCoderColoringGame/assets/images/coloring2.png" media-type="image/png"/>
+		<item id="d3325266-2026-11e5-b5f7-727283247c7f" href="components/PubCoderColoringGame/assets/images/coloring3.png" media-type="image/png"/>
 		<!--PubCoderColoring Game-->
 		<!--shared-->
 		<item id="fab51345-7bc6-479b-a3a7-bb1b1c67731e" href="components/shared/js/jquery.js" media-type="text/javascript" />
-		<item id="21990997-1e88-4778-8ff4-a9a92f7b7124" href='components/shared/js/general.functions.js' media-type="text/javascript" />
-		<item id="4585ae5d-f5c5-4cb4-ae5c-66f406d774d4" href="components/shared/js/jquery.ui.js" media-type="text/javascript" />
-		<item id="13d5b6e6-779a-4da8-85b7-153966703f14" href="components/shared/js/jquery.easie-min.js" media-type="text/javascript" />
-			  <item id="e93d15c4-a9c5-4f9f-b54c-b4eef497e80a" href='components/shared/js/jquery-css-transform.js' media-type="text/javascript" />
+		<item id="ce163188-8efe-426a-8006-525014a659b9" href='components/shared/js/general.functions.js' media-type="text/javascript" />
+		<item id="e07338c4-3fa0-49f7-abc9-f09980e54e35" href="components/shared/js/jquery.ui.js" media-type="text/javascript" />
+		<item id="c2c8d1be-c089-4ad8-a72c-d835dbea2feb" href="components/shared/js/jquery.easie-min.js" media-type="text/javascript" />
+		<item id="e93d15c4-a9c5-4f9f-b54c-b4eef497e80a" href='components/shared/js/jquery-css-transform.js' media-type="text/javascript" />
+
+
 	</manifest>
 	<spine page-progression-direction="ltr">
 		<itemref idref="page1" />
@@ -110,7 +116,7 @@
 		
 		<!--embed PubCoderImageGallery Scriptable Component -->
 		<collection role="scriptable-component">
-        	<metadata>
+        	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 	        	<dc:type>scriptable-component</dc:type>
 				<dc:title>PubCoder Image Gallery</dc:title>
 				<dc:creator>PubCoderImageGallery</dc:creator>
@@ -120,16 +126,13 @@
 				<dc:rights>© 2015 PubCoder Srl</dc:rights>
 				<dc:language>en</dc:language>
 			    <meta property="epubsc:version">1.0</meta>
-				<meta property="epubsc:scripted">true</meta>
-				<meta property="epubsc:local-storage-required">false</meta>
+				<meta property="epubsc:storage-required">false</meta>
 				<meta property="epubsc:network-access-required">false</meta>
-				<meta property="epubsc:params-required">false</meta>
-				<meta property="epubsc:viewport">width=1024, height=768</meta>
-				<meta name="generator" content="PubCoder for Scriptable Components"/>
+				<meta property="epubsc:required-params">false</meta>
 			</metadata>
 
 			<collection role="manifest">
-				<link href="components/PubCoderImageGallery/css/general.styles.css">
+				<link href="components/PubCoderImageGallery/css/general.styles.css" />
 				<link href="components/PubCoderImageGallery/images/scphotogallery-fullscreen-close.png"/>
 				<link href="components/PubCoderImageGallery/images/scphotogallery-fullscreen-open.png"/>
 				<link href="components/PubCoderImageGallery/images/scphotogallery-index-close.png" />
@@ -169,7 +172,7 @@
 	<!--embed PubCoderImageGallery Scriptable Component: END -->
 	<!--embed PubCoderColoringGame Scriptable Component -->
 	<collection role="scriptable-component">
-        <metadata>
+        <metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
         	<dc:type>scriptable-component</dc:type>
 			<dc:title>PubCoder Coloring Game</dc:title>
 			<dc:creator>PubCoderColoringGame</dc:creator>
@@ -179,12 +182,9 @@
 			<dc:rights>© 2015 PubCoder Srl</dc:rights>
 			<dc:language>en</dc:language>
 			<meta property="epubsc:version">1.0</meta>
-			<meta property="epubsc:scripted">true</meta>
-			<meta property="epubsc:local-storage-required">false</meta>
+			<meta property="epubsc:storage-required">false</meta>
 			<meta property="epubsc:network-access-required">false</meta>
-			<meta property="epubsc:params-required">false</meta>
-			<meta property="epubsc:viewport">width=1024, height=768</meta>
-			<meta name="generator" content="PubCoder for Mac OS X"/>
+			<meta property="epubsc:required-params">false</meta>
 		</metadata>
 		<collection role="manifest">
 			<link href="components/PubCoderColoringGame/css/general.styles.css" />

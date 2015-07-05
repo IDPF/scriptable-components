@@ -15,7 +15,6 @@
 	<meta property="epubsc:storage-required">false</meta>
 	<meta property="epubsc:network-access-required">false</meta>
 	<meta property="epubsc:required-params">false</meta>
-	<meta name="generator" content="PubCoder for Mac OS X"/>
 	<meta property="rendition:layout">pre-paginated</meta>	
 	<meta property="rendition:orientation">landscape</meta>
 	<meta property="rendition:spread">none</meta>

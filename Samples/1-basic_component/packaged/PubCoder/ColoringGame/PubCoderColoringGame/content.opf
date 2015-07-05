@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<package xmlns="http://www.idpf.org/2007/opf" unique-identifier="SC" version="3.0" prefix="rendition: http://www.idpf.org/vocab/rendition/#">
+  <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+<!-- METADATA -->
+	<dc:type>scriptable-component</dc:type>
+	<dc:title>PubCoder Coloring Game</dc:title>
+	<dc:creator>PubCoderColoringGame</dc:creator>
+	<dc:identifier id="SC">urn:isbn:9781234567890</dc:identifier>
+	<dc:description>A Scriptable Component</dc:description>
+	<dc:publisher>PubCoder Srl</dc:publisher>
+	<dc:date>2015-05-11</dc:date>
+	<dc:rights>© 2015 PubCoder Srl</dc:rights>
+	<dc:language>en</dc:language>
+    <meta property="epubsc:version">1.0</meta>
+	<meta property="epubsc:storage-required">false</meta>
+	<meta property="epubsc:network-access-required">false</meta>
+	<meta property="epubsc:required-params">false</meta>
+	<!--end Specific meta for SC -->
+	<meta property="dcterms:modified">2015-05-11T08:46:47Z</meta>
+</metadata>	
+	<manifest>
+
+<!-- GENERAL ASSETS  -->
+		<item id="toc" href="toc.xhtml" media-type="application/xhtml+xml" properties="nav"/>
+		<item id="d3323eca-2026-11e5-b5f7-727283247c7f" href="css/general.styles.css" media-type="text/css"/>
+		<item id="d332428a-2026-11e5-b5f7-727283247c7f" href="images/scdrawer-trash.png" media-type="image/png"/>
+		
+<!-- JAVASCRIPT -->
+		<item id="fab51345-7bc6-479b-a3a7-bb1b1c67731e" href="js/jquery.js" media-type="text/javascript" />
+		<item id="ce163188-8efe-426a-8006-525014a659b9" href='js/general.functions.js' media-type="text/javascript" />
+		<item id="d33255fe-2026-11e5-b5f7-727283247c7f" href='js/drawer.js' media-type="text/javascript" />
+		
+<!-- PAGES ASSETS -->
+		<!--page 1-->
+		<item id="d33247bc-2026-11e5-b5f7-727283247c7f" href="assets/1/styles.css" media-type="text/css"/>
+		<item id="d33249b0-2026-11e5-b5f7-727283247c7f" href="assets/1/actions.js" media-type="text/javascript" />
+		<item id="d3324bf4-2026-11e5-b5f7-727283247c7f" href="assets/1/page.xhtml" media-type="application/xhtml+xml" properties="scripted"/>
+		<item id="d3324db6-2026-11e5-b5f7-727283247c7f" href="assets/images/obj5644_image.jpeg" media-type="image/jpeg"/>
+		<item id="d3324f50-2026-11e5-b5f7-727283247c7f" href="assets/images/coloring1.png" media-type="image/png"/>
+		<item id="d33250e0-2026-11e5-b5f7-727283247c7f" href="assets/images/coloring2.png" media-type="image/png"/>
+		<item id="d3325266-2026-11e5-b5f7-727283247c7f" href="assets/images/coloring3.png" media-type="image/png"/>
+<!--page 1: end-->
+	</manifest>
+	
+	<spine page-progression-direction="ltr">
+		<itemref idref="d3324bf4-2026-11e5-b5f7-727283247c7f" />
+	</spine>
+	
+	<guide> 
+      <reference type="cover" title="Cover" href="assets/1/page.xhtml"/>
+      <reference type="text" title="Story start" href="assets/1/page.xhtml"/>
+  </guide>	
+</package>
