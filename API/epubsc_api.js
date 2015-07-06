@@ -200,10 +200,12 @@ var epubsc = (function(){
          * An array of all publishable events, used in init to setup the stack.
         */
         publishableBrowserEvents : [
-            "click", "dblclick", "mousedown", "mouseup", "mousemove",
-            "keydown", "keypress", "keyup",
+            "load", "unload", "abort", "error", "select", "resize", "scroll",
+            "blur", "focus", "focusin", "focusout",
+            "click", "dblclick", "mousedown", "mouseenter", "mouseleave", "mousemove", "mouseout", "mouseover", "mouseup",
+            "wheel", "beforeinput", "input", "keydown", "keyup", "compositionstart", "compositionupdate", "compositionend",
             "touchstart", "touchend", "touchmove", "touchcancel",
-            "pointerdown", "pointerup", "pointercancel", "pointermove"
+            "pointerover", "pointerenter", "pointerdown", "pointermove", "pointerup", "pointercancel", "pointerout", "pointerleave", "gotpointercapture", "lostpointercapture"
         ],
 
         isEvent : function(topic){
