@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<package xmlns="http://www.idpf.org/2007/opf" unique-identifier="pub-id" version="3.0">
+    <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">   
+	
+	    <!--general metadata -->
+	    <dc:type>scriptable-component</dc:type>
+	    <dc:title>ESC-LoggerDemo-2</dc:title>
+	    <dc:creator>Readium</dc:creator>
+	    <dc:creator>Ric Wright</dc:creator>
+	    <dc:identifier id="pub-id">urn:uuid:e2110a37-afe8-4893-b287-5fcea1e3fcc1</dc:identifier>
+	    <dc:description>Demo of the Logger Widget</dc:description>
+	    <dc:publisher>Readium</dc:publisher>
+	    <dc:date>2015-05-19</dc:date>
+	    <dc:rights>Readium Foundation</dc:rights>
+	    <dc:language>en</dc:language>
+	    <meta property="dcterms:modified">2015-05-19T08:46:47Z</meta>
+	    <meta name="generator" content="epubcrude"/>
+        <!-- widget-specific metadata -->
+	    <meta property="epubsc:version">1.0.20150519</meta>
+	    <meta property="epubsc:scripted">true</meta>
+	    <meta property="epubsc:local-storage-required">false</meta>
+	    <meta property="epubsc:network-access-required">false</meta>
+	    <meta property="epubsc:params-required">false</meta>
+	    <meta property="epubsc:viewport">width=1024, height=768</meta>
+	    <!--rendition metadata -->
+	    <meta property="rendition:layout">pre-paginated</meta>	
+	    <meta property="rendition:orientation">portrait</meta>
+	    <meta property="rendition:spread">none</meta>
+    </metadata>	
+
+    <manifest>   
+        <!-- css -->
+        <item id="logger-demo-css" href="css/logger-demo.css" media-type="text/css"/>
+        <!--front matter  -->
+	    <item id="toc" href="xhtml/nav.xhtml" media-type="application/xhtml+xml" properties="nav"/>
+        <!-- javascript -->
+       <item id="logger-demo-js" href="js/logger-demo.js" media-type="text/javascript" />
+       <item id="events-js" href="js/events.js" media-type="text/javascript" />
+        <!-- container page -->
+        <item id="logger-demo" href="xhtml/logger-demo.xhtml" media-type="application/xhtml+xml" properties="scripted"/>
+		<!-- the widget's manifest items -->
+		<item id="logger" href="components/readium/logger/EPUB/xhtml/logger.xhtml" media-type="application/xhtml+xml" properties="scripted"/>
+        <item id="logger-css" href="components/readium/logger/EPUB/css/logger.css" media-type="text/css"/>
+		<item id="logger-js" href="components/readium/logger/EPUB/js/logger.js" media-type="text/javascript" />
+	</manifest>
+			
+	<spine page-progression-direction="ltr">
+		<itemref idref="logger-demo" />
+	</spine>
+	
+	<collection role="scriptable-component">
+        <metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
+        	<dc:type>scriptable-component</dc:type>
+            <dc:title>Logger</dc:title>
+            <dc:creator>Readium</dc:creator>
+            <dc:language>en</dc:language>
+            <meta property="epubsc:version">1.0.20150519</meta>
+		</metadata>
+
+		<collection role="manifest">
+        	<link href="components/api/epubsc_api.js"/>
+        	<link href="components/readium/logger/EPUB/xhtml/logger.xhtml"/>
+            <link href="components/readium/logger/EPUB/css/logger.css"/>
+			<link href="components/readium/logger/EPUB/js/logger.js"/>
+		</collection>
+
+		<link href="components/readium/logger/EPUB/xhtml/logger.xhtml"/>
+	</collection>
+</package>
