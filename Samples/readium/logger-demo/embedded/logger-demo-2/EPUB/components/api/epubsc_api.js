@@ -17,7 +17,7 @@ var epubsc = (function(){
 
 			// assign an id here
 			this.widgetID = subpub.genUuid();
-
+			console.log("Widget ID: " + this.widgetID);
 			// setup the publishable browser event stack
 			subpub.publishableBrowserEvents.forEach(function(eventName) {
 			    // Setup the event listener here - listen for bubble phase, then publish the event when it fires
@@ -228,7 +228,7 @@ var epubsc = (function(){
     		} 
     		
             // rebroadcast to everyone
-            subpub.rebroadcast(e);
+            //subpub.rebroadcast(e);
 		},
 		rebroadcast : function(e){
 		    // blind rebroadcasting of all publishes

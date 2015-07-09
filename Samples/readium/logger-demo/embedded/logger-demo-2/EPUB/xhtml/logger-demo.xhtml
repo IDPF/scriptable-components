@@ -2,26 +2,23 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops">
 <head>
 	<meta charset="utf-8"/>
-	<meta name="viewport" content="width=768,height=1024" />
 	<title>Logger Demo: Controller</title>
 	<script src="../components/api/epubsc_api.js"></script>
-
+	<link type="text/css" rel="stylesheet" href="../css/logger-demo.css" />
 </head>
 <body>
 	<h2>Controller Window</h2>
 	
-	<div id="controllerDiv" style="width:90%; height:400px;overflow:auto; border-style:solid;border-width:1px;border-color:gray"/>
-	
-	<p>
-		<button id="send">Send Message</button>
-	</p>
+	<div id="controllerDiv" name="controllerDiv"/>
 
-	<h2>Widget iFrame</h2>
+	<h2 id="framesLabel">Widget iFrames</h2>
 	
-	<iframe id="receiver" name="receiver" src="../components/readium/logger/EPUB/xhtml/logger.xhtml" 
-        width="90%" height="400px" >
+	<iframe id="loggerWinL" name="loggerWinL" epub:type="widget" src="../components/readium/logger/EPUB/xhtml/loggerL.xhtml" >
 	</iframe>
-	
+
+	<iframe id="loggerWinR" name="loggerWinR" epub:type="widget" src="../components/readium/logger/EPUB/xhtml/loggerR.xhtml" >
+	</iframe>
+
 	<script src="../js/logger-demo.js"></script>
 </body>
 </html>

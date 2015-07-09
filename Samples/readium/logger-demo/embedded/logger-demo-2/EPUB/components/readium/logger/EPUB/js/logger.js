@@ -18,28 +18,28 @@ window.onload = function() {
 
 	// subscribe to the epubsc event call
 	epubsc.subscribe("epubsc_event", function(msg){
-		if (msg.data.topicData.type != "mousemove")
-		    logMsg( loggerDiv, "Topic => [event] " + msg.data.topicData.type + " widget: "+ msg.data.widgetId);
+		if (msg.data.topicData.type == "mousedown")
+		    logMsg( loggerDiv, "Topic: [event] " + msg.data.topicData.type + " ESC: "+ msg.data.widgetId);
 	});
 
 	epubsc.subscribe("epubsc_ready", function(msg){
-		logMsg( loggerDiv, "Topic => [ready] " + msg.data.topicData.type + " widget: "+ msg.data.widgetId);
+		logMsg( loggerDiv, "Topic: [ready] " + " ESC: "+ msg.data.widgetId);
 	});
 
 	epubsc.subscribe("epubsc_pause", function(msg){
-		logMsg( loggerDiv, "Topic => [pause] " + msg.data.topicData.type + " widget: "+ msg.data.widgetId);
+		logMsg( loggerDiv, "Topic: [pause] " + " ESC: "+ msg.data.widgetId);
 	});
 
 	epubsc.subscribe("epubsc_resume", function(msg){
-		logMsg( loggerDiv, "Topic => [resume] " + msg.data.topicData.type + " widget: "+ msg.data.widgetId);
+		logMsg( loggerDiv, "Topic: [resume] " + " ESC: "+ msg.data.widgetId);
 	});
 
 	epubsc.subscribe("epubsc_load", function(msg){
-		logMsg( loggerDiv, "Topic => [load] " + msg.data.topicData.type + " widget: "+ msg.data.widgetId);
+		logMsg( loggerDiv, "Topic: [load] " + " ESC: "+ msg.data.widgetId);
 	});
 
 	epubsc.subscribe("epubsc_unload", function(msg){
-		logMsg( loggerDiv, "Topic => [unload] " + msg.data.topicData.type + " widget: "+ msg.data.widgetId);
+		logMsg( loggerDiv, "Topic: [unload] " + " ESC: "+ msg.data.widgetId);
 	});
 
 	function logMsg( elm, msg ) {
