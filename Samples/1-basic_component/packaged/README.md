@@ -1,5 +1,3 @@
 # Basic Componenet Sample
 
-This is the future home to the basic Scriptable Component in it's packaged form. 
-Meaning that the SC will a stand-alone EPUB utilizing SC metadata to identify itself and it's parts for toolchain ingestion.
-
+This basic "Hello World" Scriptable Component (SC) uses a Fixed Layout viewport and appropriate accessible metadata for keyboard control. This sample is purely a packaging example showing the before and after embedding states of the SC.
