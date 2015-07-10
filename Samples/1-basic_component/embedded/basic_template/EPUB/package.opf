@@ -1,88 +1,88 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package version="3.0" xml:lang="en" unique-identifier="pub-id"
-	xmlns="http://www.idpf.org/2007/opf"
-	prefix="epubsc: http://idpf.org/epub/vocab/sc/#">
-	<!-- EPUBCheck 4.0.0 Alpha11 no longer requires - prefix="rendition: http://www.idpf.org/vocab/rendition/#" -->
-	
-	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
-		<dc:identifier id="pub-id">urn:uuid:f4ec85a0-daf9-447b-d490-f458ca0aea0a</dc:identifier>
-		<meta refines="#pub-id" property="identifier-type" scheme="xsd:string">uuid</meta>
-		<meta property="dcterms:modified">2015-06-30T16:00:00Z</meta>
-		
-		<dc:title id="title">Author Name's Nth Edition — Subject of Interest</dc:title>
-		<meta refines="#title" property="file-as">Subject of Interest, Author Name's, Nth Edition</meta>
-		<dc:description id="description">A useful brief description allowing for a reader to quickly discern the scope and scale of the product.</dc:description>
-		<dc:subject id="subject">Non-Fiction</dc:subject>
-		<dc:language id="language">en</dc:language>
-		<dc:date>2015-06-01</dc:date>
-		
-		<dc:creator id="author">Darryl Lehmann</dc:creator>
-		<meta refines="#author" property="file-as">Lehmann, Darryl</meta>
-		<dc:publisher id="publisher">Imagineeringart.com, Inc</dc:publisher>
-		<dc:rights id="rights">Copyright © Imagineeringart.com, Inc. 2015. All rights reserved.</dc:rights>
-		<meta name="cover" content="cover_image"/><!-- EPUB2 -->
-		
-		<meta property="rendition:layout">reflowable</meta>
-		<meta property="rendition:orientation">auto</meta>
-		<meta property="rendition:spread">none</meta>
-	</metadata>
-	
-	<manifest>
-		<!-- Parent EPUB -->		
-		<item id="cover" 		href="xhtml/cover.xhtml" 	media-type="application/xhtml+xml"/>
-		<item id="cover_image" 	href="img/cover.jpg" 		media-type="image/jpeg" properties="cover-image"/>
-		<item id="css" 			href="css/style.css" 		media-type="text/css"/>
-		<item id="toc" 			href="xhtml/toc.xhtml" 		media-type="application/xhtml+xml" properties="nav"/>		
-		<item id="chapter1" 	href="xhtml/chapter1.xhtml" media-type="application/xhtml+xml"/>
-		
-		<!-- sc1 - Embedded Scripted Component 1 -->
-		<item id="sc1_main" 	href="components/component_author/component_name/xhtml/component.xhtml" media-type="application/xhtml+xml" properties="scripted" fallback="sc1_fallback"/>
-		<item id="sc1_fallback" href="components/component_author/component_name/xhtml/fallback.xhtml" 	media-type="application/xhtml+xml"/>
-		<item id="sc1_style" 	href="components/component_author/component_name/css/style.css" 		media-type="text/css"/>
-		<item id="sc1_script" 	href="components/component_author/component_name/js/main.js" 			media-type="text/javascript"/>
-	</manifest>
-	
-	<spine>
-		<itemref idref="cover" linear="no"/>
-		<itemref idref="chapter1"/>
-	</spine>
-	
-	<collection role="scriptable-component">
+    xmlns="http://www.idpf.org/2007/opf"
+    prefix="epubsc: http://idpf.org/epub/vocab/sc/#">
+    <!-- EPUBCheck 4.0.0 Alpha11 no longer requires - prefix="rendition: http://www.idpf.org/vocab/rendition/#" -->
+    
+    <metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
+        <dc:identifier id="pub-id">urn:uuid:f4ec85a0-daf9-447b-d490-f458ca0aea0a</dc:identifier>
+        <meta refines="#pub-id" property="identifier-type" scheme="xsd:string">uuid</meta>
+        <meta property="dcterms:modified">2015-06-30T16:00:00Z</meta>
+        
+        <dc:title id="title">Author Name's Nth Edition — Subject of Interest</dc:title>
+        <meta refines="#title" property="file-as">Subject of Interest, Author Name's, Nth Edition</meta>
+        <dc:description id="description">A useful brief description allowing for a reader to quickly discern the scope and scale of the product.</dc:description>
+        <dc:subject id="subject">Non-Fiction</dc:subject>
+        <dc:language id="language">en</dc:language>
+        <dc:date>2015-06-01</dc:date>
+        
+        <dc:creator id="author">Darryl Lehmann</dc:creator>
+        <meta refines="#author" property="file-as">Lehmann, Darryl</meta>
+        <dc:publisher id="publisher">Imagineeringart.com, Inc</dc:publisher>
+        <dc:rights id="rights">Copyright © Imagineeringart.com, Inc. 2015. All rights reserved.</dc:rights>
+        <meta name="cover" content="cover_image"/><!-- EPUB2 -->
+        
+        <meta property="rendition:layout">reflowable</meta>
+        <meta property="rendition:orientation">auto</meta>
+        <meta property="rendition:spread">none</meta>
+    </metadata>
+    
+    <manifest>
+        <!-- Parent EPUB -->        
+        <item id="cover"         href="xhtml/cover.xhtml"     media-type="application/xhtml+xml"/>
+        <item id="cover_image"     href="img/cover.jpg"         media-type="image/jpeg" properties="cover-image"/>
+        <item id="css"             href="css/style.css"         media-type="text/css"/>
+        <item id="toc"             href="xhtml/toc.xhtml"         media-type="application/xhtml+xml" properties="nav"/>        
+        <item id="chapter1"     href="xhtml/chapter1.xhtml" media-type="application/xhtml+xml"/>
+        
+        <!-- sc1 - Embedded Scripted Component 1 -->
+        <item id="sc1_main"     href="components/component_author/component_name/xhtml/component.xhtml" media-type="application/xhtml+xml" properties="scripted" fallback="sc1_fallback"/>
+        <item id="sc1_fallback" href="components/component_author/component_name/xhtml/fallback.xhtml"     media-type="application/xhtml+xml"/>
+        <item id="sc1_style"     href="components/component_author/component_name/css/style.css"         media-type="text/css"/>
+        <item id="sc1_script"     href="components/component_author/component_name/js/main.js"             media-type="text/javascript"/>
+    </manifest>
+    
+    <spine>
+        <itemref idref="cover" linear="no"/>
+        <itemref idref="chapter1"/>
+    </spine>
+    
+    <collection role="scriptable-component">
         <metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
-			<dc:type>scriptable-component</dc:type>
-			
-			<dc:identifier id="esc-id">urn:uuid:2748c9f9-7362-49e1-85fb-7715f6d23862</dc:identifier>
-			<meta refines="#esc-id" property="identifier-type" scheme="xsd:string">uuid</meta>
-			<meta property="dcterms:modified">2015-06-30T16:00:00Z</meta>
-			
-			<dc:title id="esc_title">component_name</dc:title><!-- Path concatenation part 2 -->
-			<meta refines="#esc_title" property="dcterms:alternative">Hello World</meta>
-			<dc:description>A basic packaged EPUB Scriptable Component.</dc:description>
-			<dc:language>en</dc:language>
-			
-			<dc:creator id="esc_creator">component_author</dc:creator><!-- Path concatenation part 1 -->
-			<meta refines="#esc_creator" property="dcterms:alternative">Darryl Lehmann</meta>
-			<meta refines="#esc_creator" property="file-as">Lehmann, Darryl</meta>
-			<dc:publisher id="esc_publisher">Imagineeringart.com, Inc</dc:publisher>			
-			<dc:rights>Copyright © Imagineeringart.com, Inc. 2015. All rights reserved.</dc:rights>
-			
-			<meta property="epubsc:version">1.0.1</meta>												
-			<meta property="rendition:layout">pre-paginated</meta>
-			<meta property="rendition:orientation">landscape</meta>
-			<meta property="rendition:spread">both</meta>
-			<meta property="rendition:viewport">width=480,height=320</meta>
-			
-			<meta property="schema:accessibilityAPI">ARIA</meta>
-			<meta property="schema:accessibilityControl">fullKeyboardControl</meta>
-			<meta property="schema:accessibilityControl">fullMouseControl</meta>
-		</metadata>
-		<collection role="manifest">		
-			<link href="#sc1_main"/>
-			<link href="#sc1_fallback"/>
-			<link href="#sc1_style"/>
-			<link href="#sc1_script"/>
-		</collection>
-		<link href="#sc1_main"/>
-	</collection>
-	
+            <dc:type>scriptable-component</dc:type>
+            
+            <dc:identifier id="esc-id">urn:uuid:2748c9f9-7362-49e1-85fb-7715f6d23862</dc:identifier>
+            <meta refines="#esc-id" property="identifier-type" scheme="xsd:string">uuid</meta>
+            <meta property="dcterms:modified">2015-06-30T16:00:00Z</meta>
+            
+            <dc:title id="esc_title">component_name</dc:title><!-- Path concatenation part 2 -->
+            <meta refines="#esc_title" property="dcterms:alternative">Hello World</meta>
+            <dc:description>A basic packaged EPUB Scriptable Component.</dc:description>
+            <dc:language>en</dc:language>
+            
+            <dc:creator id="esc_creator">component_author</dc:creator><!-- Path concatenation part 1 -->
+            <meta refines="#esc_creator" property="dcterms:alternative">Darryl Lehmann</meta>
+            <meta refines="#esc_creator" property="file-as">Lehmann, Darryl</meta>
+            <dc:publisher id="esc_publisher">Imagineeringart.com, Inc</dc:publisher>
+            <dc:rights>Copyright © Imagineeringart.com, Inc. 2015. All rights reserved.</dc:rights>
+            
+            <meta property="epubsc:version">1.0.1</meta>
+            <meta property="rendition:layout">pre-paginated</meta>
+            <meta property="rendition:orientation">landscape</meta>
+            <meta property="rendition:spread">both</meta>
+            <meta property="rendition:viewport">width=480,height=320</meta>
+            
+            <meta property="schema:accessibilityAPI">ARIA</meta>
+            <meta property="schema:accessibilityControl">fullKeyboardControl</meta>
+            <meta property="schema:accessibilityControl">fullMouseControl</meta>
+        </metadata>
+        <collection role="manifest">
+            <link href="#sc1_main"/>
+            <link href="#sc1_fallback"/>
+            <link href="#sc1_style"/>
+            <link href="#sc1_script"/>
+        </collection>
+        <link href="#sc1_main"/>
+    </collection>
+    
 </package>

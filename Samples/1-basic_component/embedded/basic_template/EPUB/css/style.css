@@ -2,76 +2,76 @@
 @namespace epub "http://www.idpf.org/2007/ops";
 
 html {
-	height: 100%;
-	font-size: 100%;
+    height: 100%;
+    font-size: 100%;
 }
 
 body {
-	font-family: "Times New Roman",Times,serif;
-	font-size: 1em;
-	margin: 0;
-	padding: 0;
-	width: 100%;
+    font-family: "Times New Roman",Times,serif;
+    font-size: 1em;
+    margin: 0;
+    padding: 0;
+    width: 100%;
 }
 
 h1 {
-	font-family: Arial,Helvetica,sans-serif;
-	font-size: 1.5em;
-	font-weight: bold;
-	margin-top: 0.75em;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-top: 0.75em;
 }
 
 h2 {
-	font-family: Arial,Helvetica,sans-serif;
-	font-size: 1.3em;
-	font-weight: bold;
-	color: #FD9F10;
-	margin: 0.75em 0 0.5em 0;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 1.3em;
+    font-weight: bold;
+    color: #FD9F10;
+    margin: 0.75em 0 0.5em 0;
 }
 
 h1, h2, h3, h4 {
-	-epub-hyphens: none;
-	-webkit-hyphens: none;
-	-moz-hyphens: none;
-	hyphens: none;
+    -epub-hyphens: none;
+    -webkit-hyphens: none;
+    -moz-hyphens: none;
+    hyphens: none;
 }
 
 p {
-	margin: 0.5em 0 0 0;
+    margin: 0.5em 0 0 0;
 }
 
 ol, ul {
-	margin: 0 0 0 1em;
-	padding: 0;
+    margin: 0 0 0 1em;
+    padding: 0;
 }
 
 iframe {
-	border: none;
-	margin: 0;
-	padding: 0;
+    border: none;
+    margin: 0;
+    padding: 0;
 }
 
 figure {
-	margin: 1em 0 1em 0;
-	border: 2px solid #FD9F10;
-	max-width: 800px;
+    margin: 1em 0 1em 0;
+    border: 2px solid #FD9F10;
+    max-width: 800px;
 }
 
 figure figcaption {
-	padding: 0.5em;
-	border-top: 2px solid #FD9F10;
-	background: #EFEFF8;
-	line-height: 1.1em;
+    padding: 0.5em;
+    border-top: 2px solid #FD9F10;
+    background: #EFEFF8;
+    line-height: 1.1em;
 }
 
 figcaption .fig_title, figcaption .fig_enum {
-	font-weight: bold;
+    font-weight: bold;
 }
 
 figcaption .fig_title:after {
-	content: " — ";
+    content: " — ";
 }
 
 #toc ol {
-	list-style-type: none;
+    list-style-type: none;
 }
