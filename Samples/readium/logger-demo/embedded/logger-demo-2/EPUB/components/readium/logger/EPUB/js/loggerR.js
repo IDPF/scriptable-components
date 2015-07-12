@@ -43,7 +43,7 @@ window.onload = function() {
 	});
 
 	epubsc.subscribe("tempwave", function(msg){
-		logMsg( loggerDiv, "Topic: [tempwave] " + " ESC: "+ msg.data.widgetId + " temperature: " + msg.data.topicData.topicData.currentTemp);
+		logMsg( loggerDiv, "Topic: [tempwave] " + " ESC: "+ msg.data.widgetId + " temperature: " + msg.data.topicData.currentTemp + " at: " + msg.data.topicData.time);
 	});
 
 	function logMsg( elm, msg ) {

@@ -79,15 +79,9 @@ window.onload = function() {
     function getCurTempData () {
 
         var data = {
-            "componentId": LOGGER_ID,
-            "messageId": genUuid(),
-            "timestamp": new Date(),
-            "type": "epubsc_message",
-            "method": "epubsc_publish",
-            "topic": "tempwave",
-            "topicData": {
-                "currentTemp": 10.0
-            }
+                "currentTemp": 10.0,
+                "depth" : 0.0,
+                "time" : new Date()
         };
        // var msg = new epubsc.Message("epubsc_publish", "tempwave", data );
 
@@ -96,9 +90,9 @@ window.onload = function() {
 
 	setInterval(function() {
 		// Send the message "Hello" to the parent window
-        console.log("Widget LoggerL publishing [tempwave]");
-        logMsg( loggerDiv, "Widget LoggerL publishing [tempwave]");
-        epubsc.publish("tempwave", getCurTempData());
+        var data = getCurTempData();
+        logMsg( loggerDiv, "Widget LoggerL publishing [tempwave]: " + "temperature: " + data.currentTemp + " at " +  data.time);
+        epubsc.publish("tempwave", data);
 	},2000);
 
 }
