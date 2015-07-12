@@ -47,7 +47,7 @@ var epubsc = (function(){
 		// sub-pub mechanisms here
 		// message constructor
 		Message : function(method, topic, message, bubbles){
-			// this is a constructor, so when it's invoked as "new" this will refer 
+			// this is a constructor, so when it's invoked as "new" this will refer
 			// only to the created object, not the whole PSO object
 			this.type = "epubsc_message";
 			this.method = method;
@@ -58,6 +58,8 @@ var epubsc = (function(){
 			// make the payload
             this.topic = topic;
             this.topicData = message;
+
+            console.log("Constructed new message. method: " + method + " topic: " + topic + " ID: " + this.id);
 		},
 
 		BrowserEvent : function(e){
@@ -137,9 +139,9 @@ var epubsc = (function(){
 		},
 
 		publish : function(topic, message){
+            console.log("publishing:  topic: " + topic);
 			// publish messages to listeners
-			var payload = new this.Message("epubsc_publish", topic, message),
-			    isEvent = subpub.isEvent(topic);
+			var payload = new this.Message("epubsc_publish", topic, message);
 			    
 			// stringify if the browser doesn't support objects
             if(subpub.postmessage_usestring()){
@@ -173,6 +175,8 @@ var epubsc = (function(){
 	// the internal methods for subpub
 	var subpub = {
 		messageHandler : function(e){
+			console.log(" msgID: " + e.data.id + " topic: " + e.data.topic);
+
 			// respond to messages here
 			if(e.data == undefined) e.data = e.originalEvent.data;
 			// check to see if it's a string, then parse it (to support older systems that use JSON (< IE 9))
@@ -228,7 +232,7 @@ var epubsc = (function(){
     		} 
     		
             // rebroadcast to everyone
-            //subpub.rebroadcast(e);
+            subpub.rebroadcast(e);
 		},
 		rebroadcast : function(e){
 		    // blind rebroadcasting of all publishes

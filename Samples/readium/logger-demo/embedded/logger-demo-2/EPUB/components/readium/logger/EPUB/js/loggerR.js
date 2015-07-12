@@ -42,6 +42,10 @@ window.onload = function() {
 		logMsg( loggerDiv, "Topic: [unload] " + " ESC: "+ msg.data.widgetId);
 	});
 
+	epubsc.subscribe("tempwave", function(msg){
+		logMsg( loggerDiv, "Topic: [tempwave] " + " ESC: "+ msg.data.widgetId + " temperature: " + msg.data.topicData.topicData.currentTemp);
+	});
+
 	function logMsg( elm, msg ) {
 		elm.style.height = window.frameElement.offsetHeight + "px";
     	var newMsg = document.createTextNode(msg);

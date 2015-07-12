@@ -59,9 +59,11 @@
 
 		<collection role="manifest">
         	<link href="components/api/epubsc_api.js"/>
-        	<link href="components/readium/logger/EPUB/xhtml/logger.xhtml"/>
+        	<link href="components/readium/logger/EPUB/xhtml/loggerL.xhtml"/>
+        	<link href="components/readium/logger/EPUB/xhtml/loggerR.xhtml"/>
             <link href="components/readium/logger/EPUB/css/logger.css"/>
-			<link href="components/readium/logger/EPUB/js/logger.js"/>
+			<link href="components/readium/logger/EPUB/js/loggerL.js"/>
+			<link href="components/readium/logger/EPUB/js/loggerR.js"/>
 		</collection>
 
 		<link href="components/readium/logger/EPUB/xhtml/logger.xhtml"/>
