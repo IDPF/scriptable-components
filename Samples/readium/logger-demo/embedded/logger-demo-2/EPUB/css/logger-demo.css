@@ -3,25 +3,29 @@ iframe {
     border: 4px solid #7c7c7c;
 }
 
+.h2 {
+    font-family:Times-Roman, serif;
+}
+
 #controllerDiv {
     position: absolute;
     top: 50px;
     left: 20px;
     width: 600px;
-    height: 200px;
+    height: 50px;
     overflow:auto;
     border: 4px solid #7c7c7c;
 }
 
 #framesLabel {
     position: absolute;
-    top: 250px;
+    top: 100px;
     left: 20px;
 }
 
 #loggerWinL {
     position: absolute;
-    top: 300px;
+    top: 150px;
     left: 20px;
     width: 600px;
     height: 300px;
@@ -30,7 +34,7 @@ iframe {
 
 #loggerWinR {
     position: absolute;
-    top: 620px;
+    top: 470px;
     left: 20px;
     width: 600px;
     height: 300px;
