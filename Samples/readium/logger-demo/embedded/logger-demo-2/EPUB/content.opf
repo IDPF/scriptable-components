@@ -21,12 +21,9 @@
 	    <meta property="epubsc:local-storage-required">false</meta>
 	    <meta property="epubsc:network-access-required">false</meta>
 	    <meta property="epubsc:params-required">false</meta>
-	    <meta property="epubsc:viewport">width=1024, height=768</meta>
 	    <!--rendition metadata -->
-	    <meta property="rendition:layout">reflowed</meta>
-	    <meta property="rendition:orientation">portrait</meta>
-	    <meta property="rendition:spread">none</meta>
-    </metadata>	
+	    <meta property="rendition:layout">reflowable</meta>
+    </metadata>
 
     <manifest>   
         <!-- css -->
