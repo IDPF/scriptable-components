@@ -241,7 +241,9 @@ var epubsc = (function(){
 		    }
 		    // TODO: get the publishes up to parent, but only if they come from children.
 		    // DO NOT re-publish to parent, will cause recursion.
-		    if(window.parent != e.source) epubsc.send(window.parent, e.data.topic, e.data.topicData);
+		    if(window.parent != e.source && window.parent != window){
+		        epubsc.send(window.parent, e.data.topic, e.data.topicData);
+		    }
 		},
 		genUuid : function(){
 			var d = new Date().getTime();
