@@ -59,7 +59,7 @@ var epubsc = (function(){
             this.topic = topic;
             this.topicData = message;
 
-            console.log("Constructed new message. method: " + method + " topic: " + topic + " ID: " + this.id);
+            console.log("Constructed new message. method: " + method + " topic: " + topic + " ID: " + this.id + " time: " + message.time);
 		},
 
 		BrowserEvent : function(e){
@@ -139,11 +139,12 @@ var epubsc = (function(){
 		},
 
 		publish : function(topic, message){
-            console.log("publishing:  topic: " + topic);
 			// publish messages to listeners
 			var payload = new this.Message("epubsc_publish", topic, message);
-			    
-			// stringify if the browser doesn't support objects
+
+            console.log("publishing:  topic: " + topic + " ID: " + payload.id + " time: " + payload.topicData.time);
+
+            // stringify if the browser doesn't support objects
             if(subpub.postmessage_usestring()){
                 payload = JSON.stringify(payload);
             }
@@ -168,19 +169,26 @@ var epubsc = (function(){
             if(subpub.postmessage_usestring()){
                 payload = JSON.stringify(payload);
             }
-		    target.postMessage(payload, "*");
+
+            console.log("send:  topic: " + topic + " ID: " + payload.id);
+
+            target.postMessage(payload, "*");
 		}
 	}
 
 	// the internal methods for subpub
 	var subpub = {
 		messageHandler : function(e){
-			console.log(" msgID: " + e.data.id + " topic: " + e.data.topic);
+			console.log(" messageHandler: msgID: " + e.data.id + " topic: " + e.data.topic + " time: " + e.data.topicData.time);
 
 			// respond to messages here
-			if(e.data == undefined) e.data = e.originalEvent.data;
+			if(e.data == undefined)
+                e.data = e.originalEvent.data;
+
 			// check to see if it's a string, then parse it (to support older systems that use JSON (< IE 9))
-			if(typeof e.data == "string") { e.data = JSON.parse(e.data); }
+			if(typeof e.data == "string") {
+                e.data = JSON.parse(e.data);
+            }
 
 			// get the topic, then fire the position in
 			// descriptions that holds the handler
@@ -223,20 +231,29 @@ var epubsc = (function(){
 		publishHandler : function(e){
 		    var topic = e.data.topic;
 
+            console.log("publishHandler:  topic: " + e.data.topic + " ID: " + e.data.id);
+
 			// fire off the local handler here
 			if(epubsc.subscriptions[topic]){
 			    for(var key in epubsc.subscriptions[topic].handlers){
 			        var Handler = epubsc.subscriptions[topic].handlers[key];
-			        Handler(e);
+                    console.log("calling Handler:  topic: " + e.data.topic + " ID: " + e.data.id + " time: " + e.data.topicData.time );
+
+                    Handler(e);
 			    }
     		} 
     		
             // rebroadcast to everyone
+            console.log("calling rebroadcast:  topic: " + e.data.topic + " ID: " + e.data.id + e.data.topicData.time);
+
             subpub.rebroadcast(e);
 		},
 		rebroadcast : function(e){
 		    // blind rebroadcasting of all publishes
-		    var iframes = document.getElementsByTagName("iframe");
+
+            console.log("rebroadcast:  topic: " + e.data.topic + " ID: " + e.data.id + " time: " + e.data.topicData.time);
+
+            var iframes = document.getElementsByTagName("iframe");
 		    for(var i=0;i<iframes.length;i++){
 		        var iframe = iframes[i];
 	            if(iframe.contentWindow != e.source){
@@ -245,7 +262,8 @@ var epubsc = (function(){
 		    }
 		    // TODO: get the publishes up to parent, but only if they come from children.
 		    // DO NOT re-publish to parent, will cause recursion.
-		    if(window.parent != e.source) epubsc.send(window.parent, e.data.topic, e.data.topicData);
+		    if(window.parent != e.source && window.parent != window)
+                epubsc.send(window.parent, e.data.topic, e.data.topicData);
 		},
 		genUuid : function(){
 			var d = new Date().getTime();

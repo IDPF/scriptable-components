@@ -6,6 +6,7 @@ var loggerDiv = document.getElementById('loggerLDiv');
 window.onload = function() {
 	console.log('The child-window logger JS got loaded!');
 
+    epubsc.WidgetName = "LoggerL";
 	// subscribe to the epubsc event call
 	//epubsc.subscribe("epubsc_event", function(msg){
 	//	if (msg.data.topicData.type == "mousedown")
@@ -45,8 +46,9 @@ window.onload = function() {
 
 	setInterval(function() {
         var data = getCurTempData();
-        var time = formatTimeString( new Date());
-        logMsg( loggerDiv, "Widget LoggerL publishing [tempwave]: " + "temp: " + data.currentTemp + " at " +  time);
+
+        logMsg( loggerDiv, "Widget LoggerL publishing [tempwave]: " + "temp: " + data.currentTemp + " at " +  formatTimeString(data.time));
+        console.log( "Widget LoggerL publishing [tempwave]: " + "temp: " + data.currentTemp + " at " +  data.time);
         epubsc.publish("tempwave", data);
 	},2000);
 

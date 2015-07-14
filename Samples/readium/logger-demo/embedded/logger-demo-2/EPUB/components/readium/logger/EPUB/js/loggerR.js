@@ -5,6 +5,8 @@ var loggerRDiv = document.getElementById('loggerRDiv');
 window.onload = function() {
 	console.log('The child-window logger JS got loaded!');
 
+    epubsc.WidgetName = "LoggerR";
+
 	// subscribe to the epubsc event call
 	epubsc.subscribe("epubsc_event", function(msg){
 		if (msg.data.topicData.type == "mousedown")
@@ -35,6 +37,7 @@ window.onload = function() {
         var ID = msg.data.widgetId;
         var time = formatTimeString( new Date(msg.data.topicData.time));
 		logMsg( loggerRDiv, "Topic: [tempwave] " + " ESC: "+ ID.substr(0,9) + ",  temp: " + msg.data.topicData.currentTemp + " at: " + time);
+        console.log( "WIdgetRHandler: Topic: [tempwave] " + " ESC: "+ ID.substr(0,9) + ",  temp: " + msg.data.topicData.currentTemp + " at: " + time);
 	});
 
 }
