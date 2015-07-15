@@ -36,8 +36,7 @@ window.onload = function() {
 	epubsc.subscribe("tempwave", function(msg) {
         var ID = msg.data.widgetId;
         var time = formatTimeString( new Date(msg.data.topicData.time));
-		logMsg( loggerRDiv, "Topic: [tempwave] " + " ESC: "+ ID.substr(0,9) + ",  temp: " + msg.data.topicData.currentTemp + " at: " + time);
-        console.log( "WIdgetRHandler: Topic: [tempwave] " + " ESC: "+ ID.substr(0,9) + ",  temp: " + msg.data.topicData.currentTemp + " at: " + time);
+		logMsg( loggerRDiv, "Widget-Handler: [tempwave] " + " ESC: "+ ID.substr(0,9) + ",  temp: " + msg.data.topicData.currentTemp + " at: " + time);
 	});
 
 }

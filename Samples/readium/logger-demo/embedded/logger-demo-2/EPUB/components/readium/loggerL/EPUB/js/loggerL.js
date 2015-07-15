@@ -48,7 +48,6 @@ window.onload = function() {
         var data = getCurTempData();
 
         logMsg( loggerDiv, "Widget LoggerL publishing [tempwave]: " + "temp: " + data.currentTemp + " at " +  formatTimeString(data.time));
-        console.log( "Widget LoggerL publishing [tempwave]: " + "temp: " + data.currentTemp + " at " +  data.time);
         epubsc.publish("tempwave", data);
 	},2000);
 

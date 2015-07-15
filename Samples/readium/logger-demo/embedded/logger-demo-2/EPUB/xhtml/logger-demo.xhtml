@@ -3,20 +3,20 @@
 <head>
 	<meta charset="utf-8"/>
 	<title>Logger Demo: Controller</title>
-	<script src="../components/api/epubsc_api.js"></script>
+	<script src="../components/readium/shared/api/epubsc_api.js"></script>
 	<link type="text/css" rel="stylesheet" href="../css/logger-demo.css" />
 </head>
 <body>
 	<h2>Controller Window</h2>
 	
-	<div id="controllerDiv" name="controllerDiv"/>
+	<div id="controllerDiv" />
 
 	<h2 id="framesLabel">Widget iFrames</h2>
 	
-	<iframe id="loggerWinL" name="loggerWinL" epub:type="widget" src="../components/readium/logger/EPUB/xhtml/loggerL.xhtml" >
+	<iframe id="loggerWinL" src="../components/readium/loggerL/EPUB/xhtml/loggerL.xhtml" >
 	</iframe>
 
-	<iframe id="loggerWinR" name="loggerWinR" epub:type="widget" src="../components/readium/logger/EPUB/xhtml/loggerR.xhtml" >
+	<iframe id="loggerWinR" src="../components/readium/loggerR/EPUB/xhtml/loggerR.xhtml" >
 	</iframe>
 
 	<script src="../js/logger-demo.js"></script>
