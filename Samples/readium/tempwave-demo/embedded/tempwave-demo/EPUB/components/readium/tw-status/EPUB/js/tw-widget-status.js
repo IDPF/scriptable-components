@@ -3,6 +3,7 @@
 		var	bInitID        = 0;
         var airTempID;
         var airTemperature;
+        var statusID;
 		var dateID;
         var	omegaDay       = 1.0 / (24.0 * 3600.0);			// seconds in a day, so temp cycles in one day
 		//var	Temps	       = Array(10);		// for each depth
@@ -18,15 +19,14 @@
 		}
     */
 
-		function on_load(evt) {
-			var dummy = 42;
+        window.onload = function() {
 
 			// This makes the next_update function available to JavaScript functions
 			// defined outside of the SVG document. This is needed so that the
 			// setInterval function can find and call next_update when needed.
 			//window.TempWaveJS_next_update = next_update;
 
-			window.TempWaveJS_svgdoc = evt.target.ownerDocument; // getSVGDoc(evt.target);
+			//window.TempWaveJS_svgdoc = evt.target.ownerDocument; // getSVGDoc(evt.target);
 		
 			initIDs();
 
@@ -37,7 +37,7 @@
 				console.log( "Widget-Handler-Status: [tempwave] " + " ESC: "+ ID.substr(0,9) + ",  temp: " + msg.data.topicData.currentTemp + " at: " + time);
 			});
 			*/
-		}
+		};
 
 		// Set up the various parameters of the simulation
 		function InitSimulation () {
@@ -76,10 +76,13 @@
 		function initIDs () 	{
 			//var svgDoc   = window.TempWaveJS_svgdoc;
 
-			airTempID = window.TempWaveJS_svgdoc.getElementById("B_AirTemp");
-			dateID    = window.TempWaveJS_svgdoc.getElementById("B_Date");
+			airTempID = document.getElementById("B_AirTemp");
+			dateID    = document.getElementById("B_Date");
 
-			bInitID = 1;
+            // Get a reference to the <div> on the page that will display the message text.
+            statusDiv = document.getElementById('statusDiv');
+
+            bInitID = 1;
 		}
 
 		// This function implements the animation.
@@ -119,9 +122,11 @@
 			var		mois = GetMonth( dayNumber, 0);
 			var		dateStr = jour + ' ' + Month[mois-1];
 
-			dateID.firstChild.nodeValue = dateStr;
+            logMsg( statusDiv, "Date: " + dateStr + "  -  airTemp: " + airTemperature.toFixed(1));
 
-			airTempID.firstChild.nodeValue = airTemperature.toFixed(1);
+            //dateID.firstChild.nodeValue = dateStr;
+
+			//airTempID.firstChild.nodeValue = airTemperature.toFixed(1);
 		}
 
         epubsc.subscribe("tempwave", function(msg) {
@@ -131,4 +136,11 @@
             updateDateAndTemp(msg);
         });
 
-	//======================== end of Javascript ============================================
+        epubsc.subscribe("tw-controls", function(msg) {
+
+            if (msg.data.topicData.command == "restart") {
+                while (statusDiv.firstChild) {
+                    statusDiv.removeChild(statusDiv.firstChild);
+                }
+            }
+        });

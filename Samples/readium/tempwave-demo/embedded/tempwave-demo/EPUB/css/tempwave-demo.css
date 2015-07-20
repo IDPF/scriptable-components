@@ -10,7 +10,7 @@ iframe {
 
 #tw-widget-controls{
     position: absolute;
-    top: 50px;
+    top: 20px;
     left: 350px;
     width: 300px;
     height: 50px;
@@ -19,16 +19,16 @@ iframe {
 
 #tw-widget-status{
     position: absolute;
-    top: 150px;
+    top: 90px;
     left: 350px;
     width: 300px;
-    height: 75px;
+    height: 230px;
     padding:0.0em;
 }
 
 #tw-widget-profile{
     position: absolute;
-    top: 25px;
+    top: 20px;
     left: 25px;
     width: 300px;
     height: 300px;

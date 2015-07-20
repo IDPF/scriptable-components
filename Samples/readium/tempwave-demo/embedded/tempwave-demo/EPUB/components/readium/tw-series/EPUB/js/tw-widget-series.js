@@ -131,4 +131,10 @@
 			updateAllDepths(msg.data);
 		});
 
+        epubsc.subscribe("tw-controls", function(msg) {
 
+            if (msg.data.topicData.command == "restart") {
+                nTotTemp = 0;
+                nCurTemp = 0;
+            }
+        });
