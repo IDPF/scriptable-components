@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 18.1.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="status" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 127.6533 16.4248" enable-background="new 0 0 127.6533 16.4248" xml:space="preserve"  onload="on_load(evt)">
+	 <script type="text/javascript" xlink:href="../../../shared/api/epubsc_api.js" />
+	 <script type="text/javascript" xlink:href="../../../shared/js/util.js" />
+     <script type="text/javascript" xlink:href="../js/tw-widget-status.js" />
+
+<g>
+	<g id="status-pf214a0" transform="matrix(1 0 0 1 475 293)">
+		<g id="status-uf24610">
+			
+				<text id="status-bf21090" transform="matrix(1.0458 0 0 1 -475.0001 -288.1689)" font-family="'Verdana-Bold'" font-size="5.5941">Current Air Temperature:</text>
+		</g>
+	</g>
+	<g id="status-pf20180" transform="matrix(1 0 0 1 601 293)">
+		<g id="status-uf22290">
+			
+				<text id="B_AirTemp" transform="matrix(1.0565 0 0 1 -508.0528 -288.1689)" font-family="'Verdana-Bold'" font-size="5.5941">10</text>
+		</g>
+	</g>
+	<g id="status-pf1c4b0" transform="matrix(1 0 0 1 649 293)">
+		<g id="status-uf161e0">
+			
+				<text id="status-bf1c0a0" transform="matrix(1.0506 0 0 1 -541.8535 -288.1689)" font-family="'Verdana-Bold'" font-size="5.5941">deg C.</text>
+		</g>
+	</g>
+	<g id="status-pf1a640" transform="matrix(1 0 0 1 554 316)">
+		<g id="status-uf1d880">
+			
+				<text id="status-bf1a230" transform="matrix(1.0525 0 0 1 -486.0117 -301.2715)" font-family="'Verdana-Bold'" font-size="5.5941">Date:</text>
+		</g>
+	</g>
+	<g id="status-pf19500" transform="matrix(1 0 0 1 616 316)">
+		<g id="status-uf1b420">
+			
+				<text id="B_Date" transform="matrix(1.0614 0 0 1 -522.6229 -301.2715)" font-family="'Verdana-Bold'" font-size="5.5941">1 July</text>
+		</g>
+	</g>
+</g>
+</svg>
