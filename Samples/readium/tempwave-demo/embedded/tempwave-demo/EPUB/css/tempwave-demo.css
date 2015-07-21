@@ -7,8 +7,11 @@ iframe {
     font-family:Times-Roman, serif;
 }
 
+#tw-widget-model {
+    display:none;
+}
 
-#tw-widget-controls{
+#tw-widget-controls {
     position: absolute;
     top: 20px;
     left: 350px;
@@ -17,7 +20,7 @@ iframe {
     padding:0.0em;
 }
 
-#tw-widget-status{
+#tw-widget-status {
     position: absolute;
     top: 90px;
     left: 350px;
@@ -26,7 +29,7 @@ iframe {
     padding:0.0em;
 }
 
-#tw-widget-profile{
+#tw-widget-profile {
     position: absolute;
     top: 20px;
     left: 25px;
@@ -35,7 +38,7 @@ iframe {
     padding:0.0em;
 }
 
-#tw-widget-series{
+#tw-widget-series {
     position: absolute;
     top: 350px;
     left: 20px;

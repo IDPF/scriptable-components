@@ -20,7 +20,7 @@
 
             // the following line exists only to force the object to be Updated - SVG bug!
             // TODO: Is this still present today?
-            elmID.style.setProperty('stroke-linecap', 'round');
+            //elmID.style.setProperty('stroke-linecap', 'round');
         }
 
 		// calculate the temperature for each depth at the current time and build 
@@ -40,7 +40,7 @@
 		epubsc.subscribe("tempwave", function(msg) {
 			var ID = msg.data.widgetId;
 			var time = formatTimeString( new Date(msg.data.topicData.time));
-			console.log( "Widget-Handler: [tempwave] " + " ESC: "+ ID.substr(0,9) + ",  temp: " + msg.data.topicData.airTemp + " at: " + time);
+			//console.log( "Profile-Handler: [tempwave] " + " ESC: "+ ID.substr(0,9) + ",  temp: " + msg.data.topicData.airTemp + " at: " + time);
 			updateProfile(msg.data);
 		});
 
