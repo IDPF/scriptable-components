@@ -17,10 +17,6 @@
         function updatePolyline ( elmID, pointStr )	{
             // Update the profile
             elmID.setAttribute("points", pointStr );
-
-            // the following line exists only to force the object to be Updated - SVG bug!
-            // TODO: Is this still present today?
-            //elmID.style.setProperty('stroke-linecap', 'round');
         }
 
 		// calculate the temperature for each depth at the current time and build 

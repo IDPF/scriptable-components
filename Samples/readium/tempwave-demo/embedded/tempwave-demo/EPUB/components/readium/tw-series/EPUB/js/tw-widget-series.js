@@ -101,16 +101,9 @@
 		function updatePolyline ( elmID, pointStr )	{
 			// Update the profile
 			elmID.setAttribute("points", pointStr );
-			
-			// the following line exists only to force the object to be Updated - SVG bug!
-			//elmID.style.setProperty('stroke-linecap', 'round');
 		}
 
 		epubsc.subscribe("tempwave", function(msg) {
-			//var ID = msg.data.widgetId;
-			//var time = formatTimeString( new Date(msg.data.topicData.time));
-			//console.log( "Series-Handler: [tempwave] " + " ESC: "+ ID.substr(0,9) + ",  temp: " + msg.data.topicData.airTemp + " at: " + time);
-
             updateAllDepths(msg.data);
 		});
 
