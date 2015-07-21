@@ -53,8 +53,8 @@
 		function updateProfile () {
 			for ( j=0; j<nDepth; j++ ) {
 				dampingDepth    = Depths[j] / damping;
-				dampedAmplitude = diurnalAmplitude * Math.exp(-Depths[j] / damping);
-				Temps[j]     = airTemperature + dampedAmplitude * Math.cos(curTime * omegaDayRad - dampingDepth);
+				dampedAmplitude = diurnalAmplitude * Math.exp(-dampingDepth);
+				Temps[j]     = airTemperature + dampedAmplitude * Math.sin(curTime * omegaDayRad - dampingDepth);
                 //Temps[j]     = 10.0;
 			}
 		}
