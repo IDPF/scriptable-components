@@ -4,7 +4,7 @@
 	
 	    <!--general metadata -->
 	    <dc:type>scriptable-component</dc:type>
-	    <dc:title>ESC-Tempwave-Demo-2</dc:title>
+	    <dc:title>ESC-Tempwave-Demo</dc:title>
 	    <dc:creator>Readium</dc:creator>
 	    <dc:creator>Ric Wright</dc:creator>
 	    <dc:identifier id="pub-id">urn:uuid:e2110a37-afe8-4893-b287-5fcea1e3fcc1</dc:identifier>
@@ -21,8 +21,10 @@
         <meta property="epubsc:network-access-required">false</meta>
         <meta property="epubsc:required-params">false</meta>
 
-	    <!--rendition metadata -->
-	    <meta property="rendition:layout">reflowable</meta>
+   	    <!--  layout metadata  -->
+	    <meta property="rendition:layout">pre-paginated</meta>
+	    <meta property="rendition:orientation">portrait</meta>
+	    <meta property="rendition:spread">auto</meta>
 
 	    <!-- cover -->
         <meta name="cover" content="cover-image" />
@@ -31,8 +33,9 @@
 
     <manifest>   
         <!-- images -->
+        <item id="twave-cover" href="images/twave-cover.png" media-type="image/png" properties="cover-image"/>
         <!-- css -->
-        <item id="twave-cover" href="images/twave-cover.png" media-type="image-png" properties="cover-image"/>
+        <item id="tempwave-demo-css" href="css/tempwave-demo.css" media-type="text/css"/>
         <!--front matter  -->
 	    <item id="toc" href="xhtml/nav.xhtml" media-type="application/xhtml+xml" properties="nav"/>
         <!-- javascript -->
