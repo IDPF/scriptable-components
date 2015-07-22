@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<package xmlns="http://www.idpf.org/2007/opf" unique-identifier="pub-id" version="3.0">
+    <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">   
+	
+	    <!--general metadata -->
+	    <dc:type>scriptable-component</dc:type>
+	    <dc:title>tw-widget-model</dc:title>
+	    <dc:creator>Readium</dc:creator>
+	    <dc:creator>Ric Wright</dc:creator>
+	    <dc:identifier id="pub-id">urn:uuid:e2110a37-afe8-4893-b287-5fcea1e3fcc2</dc:identifier>
+	    <dc:description>Model Widget</dc:description>
+	    <dc:publisher>Readium</dc:publisher>
+	    <dc:date>2015-07-22</dc:date>
+	    <dc:rights>Readium Foundation</dc:rights>
+	    <dc:language>en</dc:language>
+	    <meta property="dcterms:modified">2015-07-22T08:46:47Z</meta>
+	    <meta name="generator" content="epubcrude"/>
+        <!-- widget-specific metadata -->
+        <meta property="epubsc:version">1.0.20150721</meta>
+        <meta property="epubsc:storage-required">false</meta>
+        <meta property="epubsc:network-access-required">false</meta>
+        <meta property="epubsc:required-params">false</meta>
+
+   	    <!--  layout metadata  -->
+	    <meta property="rendition:layout">reflowable</meta>
+
+    </metadata>
+
+    <manifest>   
+		<!-- the shared widget manifest items -->
+		<item id="epubsc-api" href="components/readium/shared/api/epubsc_api.js" media-type="text/javascript" />
+		<item id="util-js" href="components/readium/shared/js/util.js" media-type="text/javascript" />
+		<item id="twave-css" href="components/readium/shared/css/twave.css" media-type="text/css" />
+
+		<!-- the model-widget's manifest items -->
+		<item id="tw-widget-model" href="components/readium/tw-model/EPUB/svg/tw-widget-model.svg" media-type="image/svg+xml" properties="scripted"/>
+		<item id="tw-widget-model-js" href="components/readium/tw-model/EPUB/js/tw-widget-model.js" media-type="text/javascript" />
+	</manifest>
+			
+	<spine page-progression-direction="ltr">
+		<itemref idref="tw-widget-model" />
+	</spine>
+</package>
