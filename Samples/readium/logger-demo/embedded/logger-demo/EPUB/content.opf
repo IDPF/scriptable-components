@@ -17,11 +17,9 @@
 	    <meta name="generator" content="epubcrude"/>
         <!-- widget-specific metadata -->
 	    <meta property="epubsc:version">1.0.20150519</meta>
-	    <meta property="epubsc:scripted">true</meta>
-	    <meta property="epubsc:local-storage-required">false</meta>
+	    <meta property="epubsc:storage-required">false</meta>
 	    <meta property="epubsc:network-access-required">false</meta>
-	    <meta property="epubsc:params-required">false</meta>
-	    <meta property="epubsc:viewport">width=1024, height=768</meta>
+	    <meta property="epubsc:required-params">false</meta>
 	    <!--rendition metadata -->
 	    <meta property="rendition:layout">pre-paginated</meta>	
 	    <meta property="rendition:orientation">portrait</meta>
