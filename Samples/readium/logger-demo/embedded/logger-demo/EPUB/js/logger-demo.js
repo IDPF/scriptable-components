@@ -52,11 +52,7 @@ window.onload = function() {
 	},false);
 
 	function logMsg( elm, msg ) {
-		// Need to reduce the size of the scrollable area by one line-height
-		var fontSize = getComputedStyle(elm).getPropertyValue("font-size");
-		fontSize = fontSize.substr(0,fontSize.indexOf("px"));
 
-		elm.style.height = (window.frameElement.offsetHeight - fontSize) + "px";
 		var newMsg = document.createTextNode(msg);
 		elm.appendChild(newMsg);
 		elm.appendChild(document.createElement("br"));
