@@ -185,7 +185,7 @@
 			</metadata>
 
 			<collection role="manifest">
-				<link href="components/PubCoder/Quiz2/styles.css">
+				<link href="components/PubCoder/Quiz2/styles.css"/>
 				<link href="components/PubCoder/Quiz2/actions.js"/>
 				<link href="components/PubCoder/shared/images/scquiz-check-off.png"/>
 				<link href="components/PubCoder/shared/images/scquiz-check-on.png"/>
